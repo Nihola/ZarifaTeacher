@@ -1,21 +1,8 @@
 
 import ContactSection from './ContactSection'
-
-// export default function Contact() {
-//   return (
-//     <div className='container max-w-[1200px] mx-auto px-3 py-10'>
-//         <div>
-//           
-//         </div>
-//     </div>
-//   )
-// }
-
-
-
 import React, { useState } from 'react';
 
-const ContactForm = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({ name: '', phone: '' });
 
   const handleChange = (e) => {
@@ -89,4 +76,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Contact;
