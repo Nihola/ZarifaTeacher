@@ -1,23 +1,28 @@
 import React from 'react';
 import { FaTelegram, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 const ContactSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="w-full mx-auto max-w-[1200px] py-10 px-6 bg-[#F4F6FC] flex flex-col lg:flex-row gap-8">
       
       {/* Chap qism - Aloqa ma'lumotlari */}
       <div className="w-full lg:w-1/2 bg-white shadow-xl rounded-xl p-6">
-        <h2 className="text-2xl font-bold mb-6 text-gray-800">Biz bilan bog'lanish</h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-800">
+          {t("contactSection.title")}
+        </h2>
 
         {/* Telegram */}
         <a href="https://t.me/zarifa_education" target="_blank" rel="noopener noreferrer" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-[#1C1E53] text-white p-3 rounded-lg">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
               <FaTelegram className="text-xl" />
             </span>
             <div>
-              <p className="text-[18px] font-semibold text-black">Telegram</p>
-              <p className="text-sm text-gray-600">@zarifa_education</p>
+              <p className="text-[18px] font-semibold text-black">{t("contactSection.telegram")}</p>
+              <p className="text-sm text-gray-600">{t("contactSection.telegram_username")}</p>
             </div>
           </div>
         </a>
@@ -25,12 +30,12 @@ const ContactSection = () => {
         {/* Telefon */}
         <a href="tel:+998977307175" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-[#1C1E53] text-white p-3 rounded-lg">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
               <FaPhoneAlt className="text-xl" />
             </span>
             <div>
-              <p className="text-[18px] font-semibold text-black">Telefon</p>
-              <p className="text-sm text-gray-600">+998 (97) 730 71 75</p>
+              <p className="text-[18px] font-semibold text-black">{t("contactSection.phone")}</p>
+              <p className="text-sm text-gray-600">{t("contactSection.phone_number")}</p>
             </div>
           </div>
         </a>
@@ -38,12 +43,12 @@ const ContactSection = () => {
         {/* Email */}
         <a href="mailto:zarifaeducation@gmail.com" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-[#1C1E53] text-white p-3 rounded-lg">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
               <FaEnvelope className="text-xl" />
             </span>
             <div>
-              <p className="text-[18px] font-semibold text-black">Email</p>
-              <p className="text-sm text-gray-600">zarifaeducation@gmail.com</p>
+              <p className="text-[18px] font-semibold text-black">{t("contactSection.email")}</p>
+              <p className="text-sm text-gray-600">{t("contactSection.email_address")}</p>
             </div>
           </div>
         </a>
@@ -56,12 +61,12 @@ const ContactSection = () => {
           className="block"
         >
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg hover:shadow-lg transition">
-            <span className="bg-[#1C1E53] text-white p-3 rounded-lg">
+            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
               <FaMapMarkerAlt className="text-xl" />
             </span>
             <div>
-              <p className="text-[18px] font-semibold text-black">Manzil</p>
-              <p className="text-sm text-gray-600">Toshkent, Qoraqamish 1/2</p>
+              <p className="text-[18px] font-semibold text-black">{t("contactSection.address")}</p>
+              <p className="text-sm text-gray-600">{t("contactSection.address_text")}</p>
             </div>
           </div>
         </a>
@@ -84,4 +89,3 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
-

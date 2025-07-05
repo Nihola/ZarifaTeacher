@@ -3,5 +3,28 @@
     "Kurslar": "Courses",
     "Mentorlar": "Mentors",
     "Biz haqimizda": "About Us",
-    "Aloqa": "Contact"
+    "Aloqa": "Contact",
+
+    "contact": {
+    "title": "Want to get in touch with us?",
+    "subtitle": "Fill out the form and we’ll get back to you",
+    "name": "Your name",
+    "name_placeholder": "Enter your name",
+    "phone": "Your phone number",
+    "phone_placeholder": "+998...",
+    "submit": "Send",
+    "success": "Information sent!"
+  },
+
+  "contactSection": {
+    "title": "Contact us",
+    "telegram": "Telegram",
+    "telegram_username": "@zarifa_education",
+    "phone": "Phone",
+    "phone_number": "+998 (97) 730 71 75",
+    "email": "Email",
+    "email_address": "zarifaeducation@gmail.com",
+    "address": "Address",
+    "address_text": "Tashkent, Qoraqamish 1/2"
+  }
 }
