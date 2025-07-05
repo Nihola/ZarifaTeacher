@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@keyframes gradient-x {
+    0%, 100% {
+      background-position: left center;
+    }
+    50% {
+      background-position: right center;
+    }
+  }
+  
+  .animated-gradient {
+    background: linear-gradient(-45deg, #1e3a8a, #2563eb, #4f46e5);
+    background-size: 300% 300%;
+    animation: gradient-x 10s ease infinite;
+  }
+  
