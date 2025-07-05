@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/header/Header';
 import { Outlet } from 'react-router-dom';
 import Footer from './components/footer/Footer';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 export default function App() {
   return (
@@ -10,8 +11,13 @@ export default function App() {
       <main>
         <Outlet/>
       </main>
-      <Footer/>
       
+       
+ 
+
+      <Footer/>     
+       
+      <ScrollToTopButton />      
     </div>
   )
 }
