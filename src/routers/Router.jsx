@@ -3,6 +3,8 @@ import App from './../App';
 import About from './../pages/about/About';
 import Contact from './../pages/contact/Contact';
 import Home from './../components/home/Home';
+import Mentors from './../pages/mentors/Mentors';
+import Courses from './../pages/courses/Courses';
 export const Router=createBrowserRouter([
     {
         path:"/",
@@ -19,6 +21,14 @@ export const Router=createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />
+            },
+            {
+                path: "/mentors",
+                element: <Mentors />
+            },
+            {
+                path: "/courses",
+                element: <Courses />
             },
 
         ]

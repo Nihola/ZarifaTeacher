@@ -1,0 +1,21 @@
+<!-- uz.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480">
+  <path fill="#1eb53a" d="M0 320h960v160H0z"></path>
+  <path fill="#fff" d="M0 160h960v160H0z"></path>
+  <path fill="#0099b5" d="M0 0h960v160H0z"></path>
+  <circle fill="#fff" cx="115" cy="70" r="45"></circle>
+  <circle fill="#0099b5" cx="135" cy="70" r="45"></circle>
+  <g fill="#fff">
+    <g id="star" transform="translate(195,40) scale(2)">
+      <polygon points="0,-4 1.18,-1.18 4,0 1.18,1.18 0,4 -1.18,1.18 -4,0 -1.18,-1.18"></polygon>
+    </g>
+    <use href="#star" x="50" y="0"></use>
+    <use href="#star" x="100" y="0"></use>
+    <use href="#star" x="150" y="0"></use>
+    <use href="#star" x="25" y="25"></use>
+    <use href="#star" x="75" y="25"></use>
+    <use href="#star" x="125" y="25"></use>
+    <use href="#star" x="50" y="50"></use>
+    <use href="#star" x="100" y="50"></use>
+  </g>
+</svg>
