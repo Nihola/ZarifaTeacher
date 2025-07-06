@@ -1,5 +1,37 @@
 {
-    "nav": {
+ 
+  "Asosiy": "Asosiy",
+  "Kurslar": "Kurslar",
+  "Mentorlar": "Mentorlar",
+  "Biz haqimizda": "Biz haqimizda",
+  "Aloqa": "Aloqa",
+
+  "contact": {
+    "title": "Biz bilan aloqaga chiqmohchimisiz?",
+    "subtitle": "Formani to'ldiring va biz siz bilan bog'lanamiz",
+    "name": "Ismingiz",
+    "name_placeholder": "Ismingizni kiriting",
+    "phone": "Telefon raqamingiz",
+    "phone_placeholder": "+998...",
+    "submit": "Yuborish",
+    "success": "Ma'lumot yuborildi!"
+  },
+
+    "contactSection": {
+    "title": "Biz bilan bog'lanish",
+    "telegram": "Telegram",
+    "telegram_username": "@zarifa_education",
+    "phone": "Telefon",
+    "phone_number": "+998 (97) 730 71 75",
+    "email": "Email",
+    "email_address": "zarifaeducation@gmail.com",
+    "address": "Manzil",
+    "address_text": "Toshkent, Qoraqamish 1/2"
+  }
+
+  
+}
+     "nav": {
         "home": "Asosiy",
         "courses": "Kurslar",
         "mentors": "Mentorlar",

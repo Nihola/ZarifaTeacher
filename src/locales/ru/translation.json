@@ -1,4 +1,33 @@
 {
+ 
+    "Asosiy": "Главная",
+    "Kurslar": "Курсы",
+    "Mentorlar": "Наставники",
+    "Biz haqimizda": "О нас",
+    "Aloqa": "Контакты",
+
+    "contact": {
+    "title": "Хотите связаться с нами?",
+    "subtitle": "Заполните форму и мы с вами свяжемся",
+    "name": "Ваше имя",
+    "name_placeholder": "Введите ваше имя",
+    "phone": "Ваш номер телефона",
+    "phone_placeholder": "+998...",
+    "submit": "Отправить",
+    "success": "Данные отправлены!"
+  },
+
+   "contactSection": {
+    "title": "Связаться с нами",
+    "telegram": "Телеграм",
+    "telegram_username": "@zarifa_education",
+    "phone": "Телефон",
+    "phone_number": "+998 (97) 730 71 75",
+    "email": "Электронная почта",
+    "email_address": "zarifaeducation@gmail.com",
+    "address": "Адрес",
+    "address_text": "Ташкент, Каракамиш 1/2"
+  } 
     "nav": {
         "home": "Главная",
         "courses": "Курсы",
@@ -23,4 +52,5 @@
         "follow": "Мы в соцсетях",
         "rights": "Все права защищены."
     }
+ 
 }
