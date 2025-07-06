@@ -1,4 +1,5 @@
 {
+ 
   "Asosiy": "Asosiy",
   "Kurslar": "Kurslar",
   "Mentorlar": "Mentorlar",
@@ -30,4 +31,28 @@
 
   
 }
-
+     "nav": {
+        "home": "Asosiy",
+        "courses": "Kurslar",
+        "mentors": "Mentorlar",
+        "about": "Biz haqimizda",
+        "contact": "Aloqa"
+    },
+    "footer": {
+        "title": "ZarifaTeacher",
+        "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
+        "pages": "Sahifalar",
+        "home": "Asosiy",
+        "courses": "Kurslar",
+        "mentors": "Mentorlar",
+        "about": "Biz haqimizda",
+        "contact": "Aloqa",
+        "contact_title": "Aloqa",
+        "phone": "Telefon",
+        "email": "Email",
+        "location": "Toshkent, Chilonzor, 7-mavze",
+        "hours": "Dushanba–Shanba: 9:00–18:00",
+        "follow": "Biz bilan bog‘laning",
+        "rights": "Barcha huquqlar himoyalangan."
+    }
+}

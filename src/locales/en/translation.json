@@ -1,4 +1,5 @@
 {
+ 
     "Asosiy": "Home",
     "Kurslar": "Courses",
     "Mentorlar": "Mentors",
@@ -27,4 +28,30 @@
     "address": "Address",
     "address_text": "Tashkent, Qoraqamish 1/2"
   }
+} 
+    "nav": {
+        "home": "Home",
+        "courses": "Courses",
+        "mentors": "Mentors",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "footer": {
+        "title": "ZarifaTeacher",
+        "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
+        "pages": "Pages",
+        "home": "Home",
+        "courses": "Courses",
+        "mentors": "Mentors",
+        "about": "About Us",
+        "contact": "Contact",
+        "contact_title": "Contact",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Tashkent, Chilonzor, 7-district",
+        "hours": "Mon–Sat: 9:00–18:00",
+        "follow": "Connect with us",
+        "rights": "All rights reserved."
+    }
 }
+ 
