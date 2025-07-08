@@ -69,8 +69,8 @@ const Contact = () => {
           <button
             type="submit"
             className="w-full text-white py-2 rounded-lg transition 
-    bg-gradient-to-r from-blue-400 to-blue-800 
-    hover:from-blue-600 hover:to-blue-900"
+           bg-gradient-to-r from-blue-400 to-blue-800 
+           hover:from-blue-600 hover:to-blue-900"
           >
             {t('contact.submit')}
           </button>
