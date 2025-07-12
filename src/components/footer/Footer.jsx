@@ -49,35 +49,15 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Pages – now visible on small screens too */}
-        <div>
+        {/* Pages – hidden on small screens */}
+        <div className="hidden md:block">
           <h4 className="font-semibold text-lg mb-3">{t('footer.pages')}</h4>
           <ul className="space-y-2 text-sm text-white/80">
-            <li>
-              <Link to="/" className="hover:text-yellow-300 transition duration-200">
-                {t('footer.home')}
-              </Link>
-            </li>
-            <li>
-              <Link to="/courses" className="hover:text-yellow-300 transition duration-200">
-                {t('footer.courses')}
-              </Link>
-            </li>
-            <li>
-              <Link to="/mentors" className="hover:text-yellow-300 transition duration-200">
-                {t('footer.mentors')}
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:text-yellow-300 transition duration-200">
-                {t('footer.about')}
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-yellow-300 transition duration-200">
-                {t('footer.contact')}
-              </Link>
-            </li>
+            <li><Link to="/" className="hover:text-yellow-300 transition duration-200">{t('footer.home')}</Link></li>
+            <li><Link to="/courses" className="hover:text-yellow-300 transition duration-200">{t('footer.courses')}</Link></li>
+            <li><Link to="/mentors" className="hover:text-yellow-300 transition duration-200">{t('footer.mentors')}</Link></li>
+            <li><Link to="/about" className="hover:text-yellow-300 transition duration-200">{t('footer.about')}</Link></li>
+            <li><Link to="/contact" className="hover:text-yellow-300 transition duration-200">{t('footer.contact')}</Link></li>
           </ul>
         </div>
 
@@ -104,15 +84,35 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold text-lg mb-3">{t('footer.follow')}</h4>
           <div className="flex gap-4 mt-2">
-            <a href="https://t.me/zarifa_education" target="_blank" rel="noreferrer">
-              <FaTelegramPlane className="text-2xl hover:text-blue-400 transition duration-300" />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer">
-              <FaInstagram className="text-2xl hover:text-pink-400 transition duration-300" />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer">
-              <FaYoutube className="text-2xl hover:text-red-500 transition duration-300" />
-            </a>
+            <motion.a
+              href="https://t.me/zarifa_education"
+              target="_blank"
+              rel="noreferrer"
+              whileHover={{ scale: 2.2, rotate: 5 }}
+              className="text-white transition"
+            >
+              <FaTelegramPlane className="text-2xl hover:text-pink-400 shadow-md hover:shadow-blue-500/50" />
+            </motion.a>
+
+            <motion.a
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+              whileHover={{ scale: 2.2, rotate: -5 }}
+              className="text-white transition"
+            >
+              <FaInstagram className="text-2xl hover:text-pink-400 shadow-md hover:shadow-pink-400/40" />
+            </motion.a>
+
+            <motion.a
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+              whileHover={{ scale: 2.2 }}
+              className="text-white transition"
+            >
+              <FaYoutube className="text-2xl hover:text-red-500 shadow-md hover:shadow-red-500/40" />
+            </motion.a>
           </div>
         </div>
       </div>
