@@ -51,5 +51,10 @@
         "hours": "Dushanba–Shanba: 9:00–18:00",
         "follow": "Biz bilan bog‘laning",
         "rights": "Barcha huquqlar himoyalangan."
+    },
+    "hero": {
+      "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
+      "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
+      "button": "Kurslarni ko'rish"
     }
 }

@@ -1,38 +1,57 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import '../../../src/index.css'; // we'll add keyframe styles here
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-export default function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+const Home = () => {
+  const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-white px-4 overflow-hidden">
-      {/* Animated Icons */}
-      <div className="absolute top-10 left-10 animate-float-slow text-4xl opacity-30">🎓</div>
-      <div className="absolute bottom-20 right-16 animate-float text-3xl opacity-30">📚</div>
-      <div className="absolute top-40 right-40 animate-float-delay text-5xl opacity-20">🧑‍🏫</div>
-      <div className="absolute bottom-10 left-32 animate-float-slower text-3xl opacity-25">✏️</div>
+    <section className="bg-white text-blue-900 min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16">
 
-      {/* Main Content */}
-      <div className="text-center max-w-4xl space-y-6 z-10" data-aos="fade-up">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-blue-900">
-          Welcome to <span className="text-blue-500">ZarifaTeacher</span>
-        </h1>
-        <p className="text-gray-600 text-lg md:text-xl">
-          Transforming education with passion and innovation. Learn with the best instructors and reach your goals.
-        </p>
-        <div className="flex justify-center gap-4">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-            Explore Courses
-          </button>
-          <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-100 transition">
-            Contact Us
-          </button>
-        </div>
+      {/* Text Content */}
+      <div className="md:w-1/2 mb-10 md:mb-0">
+        <motion.h1
+          initial={{ x: -40, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-5xl font-extrabold leading-tight mb-6"
+        >
+          {t("hero.title")}
+        </motion.h1>
+
+        <motion.p
+          initial={{ x: -40, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="text-lg text-gray-700 leading-relaxed mb-6"
+        >
+          {t("hero.description")}
+        </motion.p>
+
+        <Link
+          to="/courses"
+          className="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold py-3 px-6 rounded-full transition duration-300"
+        >
+          {t("hero.button")}
+        </Link>
       </div>
+
+      {/* Image */}
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+        className="md:w-1/2 flex justify-center"
+      >
+        <img
+          src="/hero.png"
+          alt="ZarifaTeacher students"
+          className="rounded-3xl object-cover w-full max-w-md md:max-w-lg"
+        />
+      </motion.div>
     </section>
   );
-}
+};
+
+export default Home;
