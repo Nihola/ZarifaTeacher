@@ -15,3 +15,33 @@
     animation: gradient-x 10s ease infinite;
   }
   
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes floatSlow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes floatDelay {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-slow {
+    animation: floatSlow 10s ease-in-out infinite;
+  }
+  .animate-float-slower {
+    animation: floatSlow 14s ease-in-out infinite;
+  }
+  .animate-float-delay {
+    animation: floatDelay 8s ease-in-out infinite;
+  }
+  
