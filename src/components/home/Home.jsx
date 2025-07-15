@@ -8,50 +8,35 @@ const Home = () => {
 
   return (
     <div className='mb-10'>
-      <section className="bg-white text-blue-900 min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 ">
+      <section className="bg-white text-blue-900 min-h-[90vh] px-6 md:px-20 py-16 flex flex-col-reverse md:flex-row items-center justify-between">
 
         {/* Text Content */}
-        <div className="md:w-1/2 mb-10 md:mb-0">
-          <motion.h1
-            initial={{ x: -40, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl font-extrabold leading-tight mb-6"
-          >
+        <div className="w-full md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+          <motion.h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">
             {t("hero.title")}
           </motion.h1>
 
-          <motion.p
-            initial={{ x: -40, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-lg text-gray-700 leading-relaxed mb-6"
-          >
+          <motion.p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
             {t("hero.description")}
           </motion.p>
 
-          <Link
-            to="/courses"
-            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold py-3 px-6 rounded-full transition duration-300"
-          >
-            {t("hero.button")}
-          </Link>
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+            <Link to="/courses" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold py-3 px-6 rounded-full">
+              {t("hero.button")}
+            </Link>
+            <Link to="/book-lesson" className="border border-blue-900 text-blue-900 font-semibold py-3 px-6 rounded-full hover:bg-blue-50">
+              📚 Book a Free Lesson
+            </Link>
+          </div>
         </div>
 
         {/* Image */}
-        <motion.div
-          initial={{ scale: 0.95, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="md:w-1/2 flex justify-center"
-        >
-          <img
-            src="/hero.png"
-            alt="ZarifaTeacher students"
-            className="rounded-3xl object-cover w-full max-w-md md:max-w-lg"
-          />
-        </motion.div>
+        <div className="w-full md:w-1/2 flex justify-center">
+          <img src="/home.png" alt="ZarifaTeacher students" className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-3xl shadow-lg" />
+        </div>
       </section>
+
+
       <div className="relative max-w-5xl mx-auto mt-16 p-10 bg-white rounded-3xl shadow-2xl overflow-hidden group transition-all duration-700 hover:scale-[1.01]">
 
         {/* Background Gradient Overlay */}
