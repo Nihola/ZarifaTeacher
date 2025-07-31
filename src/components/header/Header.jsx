@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -37,9 +38,41 @@ const Header = () => {
   return (
     <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <div className="text-2xl font-bold tracking-wide">ZarifaTeacher</div>
 
-        {/* Desktop Nav */}
+        {/* ✨ Logo with animated graduation cap */}
+        <div className="text-2xl font-bold tracking-wide relative flex items-center group">
+          <span>ZarifaTeache</span>
+          <span className="ml-0 relative inline-block">
+            <span>r</span>
+            <motion.svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="absolute w-6 h-6 -top-0 left-[1px] text-white drop-shadow-md"
+              animate={{
+                y: [0, -5, 0],
+                rotate: [0, 45, 0],
+              }}
+              transition={{
+                repeat: Infinity,
+                repeatType: 'loop',
+                duration: 4,
+                ease: 'easeInOut',
+              }}
+              whileHover={{
+                y: -10,
+                scale: 1.1,
+                transition: { duration: 0.4, ease: 'easeOut' },
+              }}
+            >
+              <path d="M12 2L1 7l11 5 9-4.09V17h2V7L12 2z" />
+              <path d="M11 12.47L3.76 9.13 2.5 10v2l8.5 4.6 8.5-4.6v-2l-1.26-.87L13 12.47v2.53l-1 .54-1-.54v-2.53z" />
+            </motion.svg>
+
+          </span>
+        </div>
+
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link

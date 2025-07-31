@@ -15,3 +15,89 @@
     animation: gradient-x 10s ease infinite;
   }
   
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes floatSlow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes floatDelay {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @layer utilities {
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  
+    .animate-spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+  
+    @keyframes ping-slow {
+      0% { transform: scale(1); opacity: 0.4; }
+      80%, 100% { transform: scale(1.8); opacity: 0; }
+    }
+  
+    .animate-ping-slow {
+      animation: ping-slow 8s ease-in-out infinite;
+    }
+  
+    @keyframes slow-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.2; }
+      50% { transform: scale(1.05); opacity: 0.3; }
+    }
+  
+    .animate-slow-pulse {
+      animation: slow-pulse 10s ease-in-out infinite;
+    }
+  
+    @keyframes bounce-slow {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  
+    .animate-bounce-slow {
+      animation: bounce-slow 6s ease-in-out infinite;
+    }
+  
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+      100% { transform: translateY(0px); }
+    }
+  
+    .animate-float {
+      animation: float 12s ease-in-out infinite;
+    }
+  }
+  
+  @layer utilities {
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+    }
+  
+    .animate-float {
+      animation: float 12s ease-in-out infinite;
+    }
+  
+    @keyframes slow-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.2; }
+      50% { transform: scale(1.05); opacity: 0.3; }
+    }
+  
+    .animate-slow-pulse {
+      animation: slow-pulse 10s ease-in-out infinite;
+    }
+  }
+  
