@@ -2,7 +2,7 @@ export const courses = [
   {
     id: 1,
     title: "Matematika",
-    description: "Maktab va oliy matematika asoslari.",
+    description: "",
     duration: "6 oy",
     price: 400000,
   },
