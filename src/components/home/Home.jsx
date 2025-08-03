@@ -1,77 +1,92 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { Star, ArrowRight, CheckCircle } from 'lucide-react'
 const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='mb-10'>
-      <section className="bg-white text-blue-900 min-h-[90vh] px-6 md:px-20 py-16 flex flex-col-reverse md:flex-row items-center justify-between">
+    <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white overflow-hidden">
+      <div className="absolute inset-0 bg-black/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-purple-600/90"></div>
 
-        {/* Text Content */}
-        <div className="w-full md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <motion.h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-            {t("hero.title")}
-          </motion.h1>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="space-y-8"
+          >
+            <div className="space-y-4">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2, duration: 0.6 }}
+                className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-sm"
+              >
+                <Star className="h-4 w-4 text-yellow-400" />
+                <span>{t('hero.span')}</span>
+              </motion.div>
 
-          <motion.p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
-            {t("hero.description")}
-          </motion.p>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                {t('hero.title')}
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
+                  {t('hero.subtitle')}
+                </span>
+              </h1>
 
-          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-            <Link to="/courses" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-semibold py-3 px-6 rounded-full">
-              {t("hero.button")}
-            </Link>
-            <Link to="/book-lesson" className="border border-blue-900 text-blue-900 font-semibold py-3 px-6 rounded-full hover:bg-blue-50">
-              📚 Book a Free Lesson
-            </Link>
-          </div>
-        </div>
+              <p className="text-xl text-blue-100 leading-relaxed max-w-2xl">
+                {t('hero.description')}
+              </p>
+            </div>
 
-        {/* Image */}
-        <div className="w-full md:w-1/2 flex justify-center">
-          <img src="/home.png" alt="ZarifaTeacher students" className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-3xl shadow-lg" />
-        </div>
-      </section>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Link
+                  to="/contact"
+                  className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-8 py-4 rounded-xl font-semibold hover:from-yellow-300 hover:to-orange-400 transition-all flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
+                >
+                  <span>{t('hero.apply')}</span>
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+              </motion.div>
+ 
+            </div>
+          </motion.div>
 
-
-      <div className="relative max-w-5xl mx-auto mt-16 p-10 bg-white rounded-3xl shadow-2xl overflow-hidden group transition-all duration-700 hover:scale-[1.01]">
-
-        {/* Background Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-red-50 via-white to-white opacity-60 z-0 pointer-events-none" />
-
-        {/* Curved Ring (Top Right) */}
-        <div className="absolute top-0 right-0 w-80 h-80 border-[6px] border-red-200 rounded-full translate-x-1/3 -translate-y-1/3 opacity-30 z-0 animate-slow-pulse" />
-
-        {/* Decorative Circle (Bottom Left) */}
-        <div className="absolute -bottom-32 -left-32 w-[400px] h-[400px] bg-red-100 opacity-20 rounded-full blur-2xl animate-float z-0" />
-
-        {/* Diagonal Line Decoration */}
-        <div className="absolute -bottom-6 -right-6 w-96 h-96 border-t-4 border-r-4 border-red-100 rotate-45 z-0 opacity-30" />
-
-        {/* Overlay Grid Texture */}
-        <div className="absolute inset-0 bg-[radial-gradient(#fca5a5_1px,transparent_1px)] [background-size:20px_20px] opacity-5 z-0 pointer-events-none" />
-
-        {/* Content Area */}
-        <div className="relative z-10">
-          <h2 className="text-4xl font-extrabold text-gray-900">
-            Sertifikat
-            <span className="block w-24 h-1 bg-red-500 mt-3 group-hover:w-32 transition-all duration-500" />
-          </h2>
-
-          <p className="mt-6 text-lg leading-relaxed text-gray-700 font-medium max-w-3xl">
-            Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi.
-          </p>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="hidden lg:block"
+          >
+            <div className="relative">
+              <img
+                src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Students studying abroad"
+                className="rounded-2xl shadow-2xl"
+              />
+              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center space-x-3">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <CheckCircle className="h-6 w-6 text-green-600" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-gray-900">100+</div>
+                    <div className="text-sm text-gray-600">{t('hero.number')}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
-
-
-    </div>
-
-
-
+    </section>
   );
 };
 

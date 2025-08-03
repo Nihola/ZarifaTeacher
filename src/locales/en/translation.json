@@ -50,12 +50,18 @@
         "location": "Toshkent, Qoraqamish 1/2",
         "hours": "Mon–Sat: 9:00–18:00",
         "follow": "Connect with us",
-        "rights": "All rights reserved."
+        "rights": "All rights reserved.",
+        "text": "Empowering minds, shaping futures with every lesson."
     },
-    "hero": {
-      "title": "Build Your Future with ZarifaTeacher",
-      "description": "We help students achieve academic and personal success through high-quality courses, experienced mentors, and a passion for education.",
-      "button": "Explore Courses"
+      "hero": {
+        "span": "100+ satisfied students",
+        "title": "Your journey to success",
+        "subtitle": "starts here",
+        "description": "Empowering your success through expert mentorship, quality education, and personal growth.",
+        "apply": "Get Free Consultation",
+        "number": "Successful Students"
+      }
+      
+
+
     }
-}
- 

@@ -50,11 +50,15 @@
         "location": "Toshkent, Qoraqamish 1/2",
         "hours": "Dushanba–Shanba: 9:00–18:00",
         "follow": "Biz bilan bog‘laning",
-        "rights": "Barcha huquqlar himoyalangan."
+        "rights": "Barcha huquqlar himoyalangan.",
+        "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
     },
-    "hero": {
-      "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
-      "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
-      "button": "Kurslarni ko'rish"
-    }
+"hero": {
+  "span": "100+ mamnun talabalar",
+ "title": "Muvaffaqiyat sari yo‘lingiz",
+"subtitle": "bu yerda boshlanadi",
+  "description": "Sifatli taʼlim, tajribali ustozlar va doimiy qo‘llab-quvvatlash bilan orzularingiz sari intiling.",
+  "apply": "Bepul maslahat oling",
+  "number": "Muvaffaqiyatli talabalar"
+}
 }
