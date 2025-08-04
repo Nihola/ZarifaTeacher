@@ -1,12 +1,10 @@
 {
- 
-    "Asosiy": "Home",
-    "Kurslar": "Courses",
-    "Mentorlar": "Mentors",
-    "Biz haqimizda": "About Us",
-    "Aloqa": "Contact",
-
-    "contact": {
+  "Asosiy": "Home",
+  "Kurslar": "Courses",
+  "Mentorlar": "Mentors",
+  "Biz haqimizda": "About Us",
+  "Aloqa": "Contact",
+  "contact": {
     "title": "Want to get in touch with us?",
     "subtitle": "Fill out the form and we’ll get back to you",
     "name": "Your name",
@@ -16,7 +14,6 @@
     "submit": "Send",
     "success": "Information sent!"
   },
-
   "contactSection": {
     "title": "Contact us",
     "telegram": "Telegram",
@@ -27,35 +24,103 @@
     "email_address": "teacherzarifa@gmail.com",
     "address": "Address",
     "address_text": "Tashkent, Qoraqamish 1/2"
-  }, 
-    "nav": {
-        "home": "Home",
-        "courses": "Courses",
-        "mentors": "Team",
-        "about": "About Us",
-        "contact": "Contact"
+  },
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "mentors": "Team",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "title": "ZarifaTeacher",
+    "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
+    "pages": "Pages",
+    "home": "Home",
+    "courses": "Courses",
+    "mentors": "Mentors",
+    "about": "About Us",
+    "contact": "Contact",
+    "contact_title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Toshkent, Qoraqamish 1/2",
+    "hours": "Mon–Sat: 9:00–18:00",
+    "follow": "Connect with us",
+    "rights": "All rights reserved."
+  },
+  "hero": {
+    "title": "Build Your Future with ZarifaTeacher",
+    "description": "We help students achieve academic and personal success through high-quality courses, experienced mentors, and a passion for education.",
+    "button": "Explore Courses"
+  },
+  "courses": {
+    "detailsBtn": "Learn more"
+  },
+  "courseData": [
+    {
+      "id": 1,
+      "title": "Mathematics",
+      "description": "",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
     },
-    "footer": {
-        "title": "ZarifaTeacher",
-        "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
-        "pages": "Pages",
-        "home": "Home",
-        "courses": "Courses",
-        "mentors": "Mentors",
-        "about": "About Us",
-        "contact": "Contact",
-        "contact_title": "Contact",
-        "phone": "Phone",
-        "email": "Email",
-        "location": "Toshkent, Qoraqamish 1/2",
-        "hours": "Mon–Sat: 9:00–18:00",
-        "follow": "Connect with us",
-        "rights": "All rights reserved."
+    {
+      "id": 2,
+      "title": "English Language",
+      "description": "Lessons in grammar, speaking, and listening.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
     },
-    "hero": {
-      "title": "Build Your Future with ZarifaTeacher",
-      "description": "We help students achieve academic and personal success through high-quality courses, experienced mentors, and a passion for education.",
-      "button": "Explore Courses"
+    {
+      "id": 3,
+      "title": "Arabic Language",
+      "description": "Basics of the Qur'an and modern Arabic.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 4,
+      "title": "Russian Language",
+      "description": "Reading, writing, and speaking skills.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 6,
+      "title": "IT Basics",
+      "description": "Computer literacy and introduction to technology.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 7,
+      "title": "Front-end",
+      "description": "Building websites using HTML, CSS, JavaScript, and React.",
+      "duration": "9 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 8,
+      "title": "Back-end",
+      "description": "Server-side programming: Node.js, Python, databases.",
+      "duration": "9 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 9,
+      "title": "Mental Arithmetic",
+      "description": "A method to develop both hemispheres of a child's brain.",
+      "duration": "4 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
     }
+  ]
 }
- 

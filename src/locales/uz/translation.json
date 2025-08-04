@@ -1,11 +1,9 @@
 {
- 
   "Asosiy": "Asosiy",
   "Kurslar": "Kurslar",
   "Mentorlar": "Mentorlar",
   "Biz haqimizda": "Biz haqimizda",
   "Aloqa": "Aloqa",
-
   "contact": {
     "title": "Biz bilan aloqaga chiqmohchimisiz?",
     "subtitle": "Formani to'ldiring va biz siz bilan bog'lanamiz",
@@ -16,8 +14,7 @@
     "submit": "Yuborish",
     "success": "Ma'lumot yuborildi!"
   },
-
-    "contactSection": {
+  "contactSection": {
     "title": "Biz bilan bog'lanish",
     "telegram": "Telegram",
     "telegram_username": "@zarifa_education",
@@ -28,33 +25,102 @@
     "address": "Manzil",
     "address_text": "Toshkent, Qoraqamish 1/2"
   },
-     "nav": {
-        "home": "Asosiy",
-        "courses": "Kurslar",
-        "mentors": "Jamoa",
-        "about": "Biz haqimizda",
-        "contact": "Aloqa"
+  "nav": {
+    "home": "Asosiy",
+    "courses": "Kurslar",
+    "mentors": "Jamoa",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa"
+  },
+  "footer": {
+    "title": "ZarifaTeacher",
+    "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
+    "pages": "Sahifalar",
+    "home": "Asosiy",
+    "courses": "Kurslar",
+    "mentors": "Mentorlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "contact_title": "Aloqa",
+    "phone": "Telefon",
+    "email": "Email",
+    "location": "Toshkent, Qoraqamish 1/2",
+    "hours": "Dushanba–Shanba: 9:00–18:00",
+    "follow": "Biz bilan bog‘laning",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "hero": {
+    "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
+    "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
+    "button": "Kurslarni ko'rish"
+  },
+  "courses": {
+    "detailsBtn": "Batafsil"
+  },
+  "courseData": [
+    {
+      "id": 1,
+      "title": "Matematika",
+      "description": "",
+      "duration": "6 oy",
+      "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
     },
-    "footer": {
-        "title": "ZarifaTeacher",
-        "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
-        "pages": "Sahifalar",
-        "home": "Asosiy",
-        "courses": "Kurslar",
-        "mentors": "Mentorlar",
-        "about": "Biz haqimizda",
-        "contact": "Aloqa",
-        "contact_title": "Aloqa",
-        "phone": "Telefon",
-        "email": "Email",
-        "location": "Toshkent, Qoraqamish 1/2",
-        "hours": "Dushanba–Shanba: 9:00–18:00",
-        "follow": "Biz bilan bog‘laning",
-        "rights": "Barcha huquqlar himoyalangan."
+    {
+      "id": 2,
+      "title": "Ingliz tili",
+      "description": "Grammar, Speaking va Listening bo‘yicha darslar.",
+      "duration": "6 oy",
+       "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
     },
-    "hero": {
-      "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
-      "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
-      "button": "Kurslarni ko'rish"
+    {
+      "id": 3,
+      "title": "Arab tili",
+      "description": "Qur'on va zamonaviy arab tili asoslari.",
+      "duration": "6 oy",
+       "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
+    },
+    {
+      "id": 4,
+      "title": "Rus tili",
+      "description": "O‘qish, yozish va gapirish ko‘nikmalari.",
+      "duration": "6 oy",
+       "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
+    },
+    {
+      "id": 6,
+      "title": "IT asoslari",
+      "description": "Kompyuter savodxonligi va texnologiyalarga kirish.",
+      "duration": "6 oy",
+       "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
+    },
+    {
+      "id": 7,
+      "title": "Front-end",
+      "description": "HTML, CSS, JavaScript va React orqali sayt tuzish.",
+      "duration": "9 oy",
+       "price": "550 000 so'm/oy ",
+      "newprice": "499 000 so'm/oy"
+    },
+    {
+      "id": 8,
+      "title": "Back-end",
+      "description": "Server tomon dasturlash: Node.js, Python, bazalar.",
+      "duration": "9 oy",
+       "price": "550 000 so'm/oy ",
+      "newprice": "499 000 so'm/oy"
+    },
+    {
+      "id": 9,
+      "title": "Mental arifmetika",
+      "description": "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli.",
+      "duration": "4 oy",
+       "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
     }
+  ]
 }
