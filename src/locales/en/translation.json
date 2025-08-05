@@ -106,6 +106,7 @@
       "price": "450 000  sum/month",
       "newprice": "399 000  sum/month"
     },
+
     {
       "id": 8,
       "title": "Back-end",
@@ -124,3 +125,35 @@
     }
   ]
 }
+
+    "footer": {
+        "title": "ZarifaTeacher",
+        "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
+        "pages": "Pages",
+        "home": "Home",
+        "courses": "Courses",
+        "mentors": "Mentors",
+        "about": "About Us",
+        "contact": "Contact",
+        "contact_title": "Contact",
+        "phone": "Phone",
+        "email": "Email",
+        "location": "Toshkent, Qoraqamish 1/2",
+        "hours": "Mon–Sat: 9:00–18:00",
+        "follow": "Connect with us",
+        "rights": "All rights reserved.",
+        "text": "Empowering minds, shaping futures with every lesson."
+    },
+      "hero": {
+        "span": "100+ satisfied students",
+        "title": "Your journey to success",
+        "subtitle": "starts here",
+        "description": "Empowering your success through expert mentorship, quality education, and personal growth.",
+        "apply": "Get Free Consultation",
+        "number": "Successful Students"
+      }
+      
+
+
+    }
+

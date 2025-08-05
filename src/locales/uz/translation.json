@@ -106,6 +106,7 @@
        "price": "550 000 so'm/oy ",
       "newprice": "499 000 so'm/oy"
     },
+
     {
       "id": 8,
       "title": "Back-end",
@@ -124,3 +125,32 @@
     }
   ]
 }
+
+    "footer": {
+        "title": "ZarifaTeacher",
+        "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
+        "pages": "Sahifalar",
+        "home": "Asosiy",
+        "courses": "Kurslar",
+        "mentors": "Mentorlar",
+        "about": "Biz haqimizda",
+        "contact": "Aloqa",
+        "contact_title": "Aloqa",
+        "phone": "Telefon",
+        "email": "Email",
+        "location": "Toshkent, Qoraqamish 1/2",
+        "hours": "Dushanba–Shanba: 9:00–18:00",
+        "follow": "Biz bilan bog‘laning",
+        "rights": "Barcha huquqlar himoyalangan.",
+        "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
+    },
+"hero": {
+  "span": "100+ mamnun talabalar",
+ "title": "Muvaffaqiyat sari yo‘lingiz",
+"subtitle": "bu yerda boshlanadi",
+  "description": "Sifatli taʼlim, tajribali ustozlar va doimiy qo‘llab-quvvatlash bilan orzularingiz sari intiling.",
+  "apply": "Bepul maslahat oling",
+  "number": "Muvaffaqiyatli talabalar"
+}
+}
+
