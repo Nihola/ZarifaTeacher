@@ -10,11 +10,27 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  console.log(formData)
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Yuborilgan ma’lumot:', formData);
-    alert(t('contact.success'));
-    setFormData({ name: '', phone: '' });
+
+    try {
+      await fetch('https://script.google.com/macros/s/AKfycbyv4lE2zBK0Kt7-wQCXKX_DmSt_ylRpNWJ4oeJbLA2TaEBcKTgRJNvl-PZdMlXRxnIf/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      alert(t('contact.success'));
+      setFormData({ name: '', phone: '' });
+    } catch (error) {
+      console.error('Xatolik yuz berdi:', error);
+      alert(t('contact.error'));
+    }
   };
 
   return (
@@ -22,16 +38,16 @@ const Contact = () => {
       <div className='container max-w-[1200px] mx-auto w-full px-4 py-10 flex justify-center'>
         <form
           onSubmit={handleSubmit}
-          className="p-6 rounded-xl w-full max-w-lg mb-10"
+          className="p-6 rounded-xl w-full max-w-lg mb-10 bg-white shadow-md"
         >
-          <h2 className=" text-2xl font-bold text-center mb-2 bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent">
+          <h2 className="text-2xl font-bold text-center mb-2 bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent">
             {t('contact.title')}
           </h2>
           <p className='text-md text-center mb-6 font-semibold text-blue-900'>
             {t('contact.subtitle')}
           </p>
 
-          {/* Ism */}
+          {/* Name */}
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
               {t('contact.name')}
@@ -48,7 +64,7 @@ const Contact = () => {
             />
           </div>
 
-          {/* Telefon */}
+          {/* Phone */}
           <div className="mb-6">
             <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
               {t('contact.phone')}
@@ -65,7 +81,7 @@ const Contact = () => {
             />
           </div>
 
-          {/* Yuborish tugmasi */}
+          {/* Submit Button */}
           <button
             type="submit"
             className="w-full text-white py-2 rounded-lg transition 
@@ -82,4 +98,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
