@@ -17,7 +17,7 @@ const ContactSection = () => {
         {/* Telegram */}
         <a href="https://t.me/zarifa_education" target="_blank" rel="noopener noreferrer" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
+            <span className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-3 rounded-lg">
               <FaTelegram className="text-xl" />
             </span>
             <div>
@@ -30,7 +30,7 @@ const ContactSection = () => {
         {/* Telefon */}
         <a href="tel:+998977307175" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
+            <span className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-3 rounded-lg">
               <FaPhoneAlt className="text-xl" />
             </span>
             <div>
@@ -43,7 +43,7 @@ const ContactSection = () => {
         {/* Email */}
         <a href="mailto:zarifaeducation@gmail.com" className="block">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
-            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
+            <span className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-3 rounded-lg">
               <FaEnvelope className="text-xl" />
             </span>
             <div>
@@ -61,7 +61,7 @@ const ContactSection = () => {
           className="block"
         >
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg hover:shadow-lg transition">
-            <span className="bg-gradient-to-r from-blue-400 to-blue-800 text-white p-3 rounded-lg">
+            <span className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-3 rounded-lg">
               <FaMapMarkerAlt className="text-xl" />
             </span>
             <div>

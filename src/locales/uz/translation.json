@@ -4,6 +4,7 @@
   "Mentorlar": "Mentorlar",
   "Biz haqimizda": "Biz haqimizda",
   "Aloqa": "Aloqa",
+
   "contact": {
     "title": "Biz bilan aloqaga chiqmohchimisiz?",
     "subtitle": "Formani to'ldiring va biz siz bilan bog'lanamiz",
@@ -14,6 +15,7 @@
     "submit": "Yuborish",
     "success": "Ma'lumot yuborildi!"
   },
+
   "contactSection": {
     "title": "Biz bilan bog'lanish",
     "telegram": "Telegram",
@@ -25,6 +27,7 @@
     "address": "Manzil",
     "address_text": "Toshkent, Qoraqamish 1/2"
   },
+
   "nav": {
     "home": "Asosiy",
     "courses": "Kurslar",
@@ -32,6 +35,7 @@
     "about": "Biz haqimizda",
     "contact": "Aloqa"
   },
+
   "footer": {
     "title": "ZarifaTeacher",
     "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
@@ -49,14 +53,17 @@
     "follow": "Biz bilan bog‘laning",
     "rights": "Barcha huquqlar himoyalangan."
   },
+
   "hero": {
     "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
     "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
     "button": "Kurslarni ko'rish"
   },
+
   "courses": {
     "detailsBtn": "Batafsil"
   },
+
   "courseData": [
     {
       "id": 1,
@@ -71,7 +78,7 @@
       "title": "Ingliz tili",
       "description": "Grammar, Speaking va Listening bo‘yicha darslar.",
       "duration": "6 oy",
-       "price": "450 000 so'm/oy ",
+      "price": "450 000 so'm/oy ",
       "newprice": "399 000 so'm/oy"
     },
     {
@@ -79,7 +86,7 @@
       "title": "Arab tili",
       "description": "Qur'on va zamonaviy arab tili asoslari.",
       "duration": "6 oy",
-       "price": "450 000 so'm/oy ",
+      "price": "450 000 so'm/oy ",
       "newprice": "399 000 so'm/oy"
     },
     {
@@ -87,15 +94,7 @@
       "title": "Rus tili",
       "description": "O‘qish, yozish va gapirish ko‘nikmalari.",
       "duration": "6 oy",
-       "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 6,
-      "title": "IT asoslari",
-      "description": "Kompyuter savodxonligi va texnologiyalarga kirish.",
-      "duration": "6 oy",
-       "price": "450 000 so'm/oy ",
+      "price": "450 000 so'm/oy ",
       "newprice": "399 000 so'm/oy"
     },
     {
@@ -103,16 +102,15 @@
       "title": "Front-end",
       "description": "HTML, CSS, JavaScript va React orqali sayt tuzish.",
       "duration": "9 oy",
-       "price": "550 000 so'm/oy ",
+      "price": "550 000 so'm/oy ",
       "newprice": "499 000 so'm/oy"
     },
-
     {
       "id": 8,
       "title": "Back-end",
       "description": "Server tomon dasturlash: Node.js, Python, bazalar.",
       "duration": "9 oy",
-       "price": "550 000 so'm/oy ",
+      "price": "550 000 so'm/oy ",
       "newprice": "499 000 so'm/oy"
     },
     {
@@ -120,37 +118,50 @@
       "title": "Mental arifmetika",
       "description": "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli.",
       "duration": "4 oy",
-       "price": "450 000 so'm/oy ",
+      "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
+    },
+    {
+      "id": 10,
+      "title": "Kimyo",
+      "description": "Kimyo kursida siz moddalar, ularning tuzilishi, xossalari va reaksiyalarini o‘rganasiz. Laboratoriya ishlari orqali amaliy bilim olasiz.",
+      "duration": "6 oy",
+      "price": "450 000 so'm/oy ",
+      "newprice": "399 000 so'm/oy"
+    },
+    {
+      "id": 11,
+      "title": "Biologiya",
+      "description": "Biologiya kursida tirik organizmlar, ularning tuzilishi, hayotiy jarayonlari va ekologik o‘zaro ta’siri o‘rganiladi.",
+      "duration": "6 oy",
+      "price": "450 000 so'm/oy ",
       "newprice": "399 000 so'm/oy"
     }
-  ]
+  ],
+  "footer": {
+    "title": "ZarifaTeacher",
+    "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
+    "pages": "Sahifalar",
+    "home": "Asosiy",
+    "courses": "Kurslar",
+    "mentors": "Mentorlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "contact_title": "Aloqa",
+    "phone": "Telefon",
+    "email": "Email",
+    "location": "Toshkent, Qoraqamish 1/2",
+    "hours": "Dushanba–Shanba: 9:00–18:00",
+    "follow": "Biz bilan bog‘laning",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
+  },
+  "hero": {
+    "span": "100+ mamnun talabalar",
+    "title": "Muvaffaqiyat sari yo‘lingiz",
+    "subtitle": "bu yerda boshlanadi",
+    "description": "Sifatli taʼlim, tajribali ustozlar va doimiy qo‘llab-quvvatlash bilan orzularingiz sari intiling.",
+    "apply": "Bepul maslahat oling",
+    "number": "Muvaffaqiyatli talabalar"
+  }
 }
-
-    "footer": {
-        "title": "ZarifaTeacher",
-        "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
-        "pages": "Sahifalar",
-        "home": "Asosiy",
-        "courses": "Kurslar",
-        "mentors": "Mentorlar",
-        "about": "Biz haqimizda",
-        "contact": "Aloqa",
-        "contact_title": "Aloqa",
-        "phone": "Telefon",
-        "email": "Email",
-        "location": "Toshkent, Qoraqamish 1/2",
-        "hours": "Dushanba–Shanba: 9:00–18:00",
-        "follow": "Biz bilan bog‘laning",
-        "rights": "Barcha huquqlar himoyalangan.",
-        "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
-    },
-"hero": {
-  "span": "100+ mamnun talabalar",
- "title": "Muvaffaqiyat sari yo‘lingiz",
-"subtitle": "bu yerda boshlanadi",
-  "description": "Sifatli taʼlim, tajribali ustozlar va doimiy qo‘llab-quvvatlash bilan orzularingiz sari intiling.",
-  "apply": "Bepul maslahat oling",
-  "number": "Muvaffaqiyatli talabalar"
-}
-}
-

@@ -91,14 +91,6 @@
       "newprice": "399 000  sum/month"
     },
     {
-      "id": 6,
-      "title": "IT Basics",
-      "description": "Computer literacy and introduction to technology.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
       "id": 7,
       "title": "Front-end",
       "description": "Building websites using HTML, CSS, JavaScript, and React.",
@@ -122,9 +114,25 @@
       "duration": "4 months",
       "price": "450 000  sum/month",
       "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 10,
+      "title": "Chemistry",
+      "description": "In the chemistry course, you will study substances, their structure, properties, and reactions, with hands-on laboratory practice.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
+    },
+    {
+      "id": 11,
+      "title":  "Biology",
+      "description":"In the biology course, you will study living organisms, their structure, life processes, and ecological interactions.",
+      "duration": "6 months",
+      "price": "450 000  sum/month",
+      "newprice": "399 000  sum/month"
     }
   ]
-}
+,
 
     "footer": {
         "title": "ZarifaTeacher",
