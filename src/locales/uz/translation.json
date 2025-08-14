@@ -122,28 +122,8 @@
       "newprice": "399 000 so'm/oy"
  
  
-    }
-  ],
-
-    "footer": {
-        "title": "ZarifaTeacher",
-        "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
-        "pages": "Sahifalar",
-        "home": "Asosiy",
-        "courses": "Kurslar",
-        "mentors": "Mentorlar",
-        "about": "Biz haqimizda",
-        "contact": "Aloqa",
-        "contact_title": "Aloqa",
-        "phone": "Telefon",
-        "email": "Email",
-        "location": "Toshkent, Qoraqamish 1/2",
-        "hours": "Dushanba–Shanba: 9:00–18:00",
-        "follow": "Biz bilan bog‘laning",
-        "rights": "Barcha huquqlar himoyalangan.",
-        "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
-     },
-    {
+    },
+        {
       "id": 10,
       "title": "Kimyo",
       "description": "Kimyo kursida siz moddalar, ularning tuzilishi, xossalari va reaksiyalarini o‘rganasiz. Laboratoriya ishlari orqali amaliy bilim olasiz.",
