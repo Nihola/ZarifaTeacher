@@ -39,8 +39,9 @@ const Contact = () => {
         <form
           onSubmit={handleSubmit}
           className="p-6 rounded-xl w-full max-w-lg mb-10 bg-white shadow-md"
-        >
-          <h2 className="text-2xl font-bold text-center mb-2 bg-gradient-to-r from-blue-400 to-blue-800 bg-clip-text text-transparent">
+        > 
+          <h2 className=" text-2xl font-bold text-center mb-2  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+ 
             {t('contact.title')}
           </h2>
           <p className='text-md text-center mb-6 font-semibold text-blue-900'>
@@ -85,8 +86,8 @@ const Contact = () => {
           <button
             type="submit"
             className="w-full text-white py-2 rounded-lg transition 
-           bg-gradient-to-r from-blue-400 to-blue-800 
-           hover:from-blue-600 hover:to-blue-900"
+            bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+           hover:from-purple-300 hover:to-pink-800"
           >
             {t('contact.submit')}
           </button>

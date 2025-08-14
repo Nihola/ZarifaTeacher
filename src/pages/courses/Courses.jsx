@@ -21,7 +21,7 @@ function Courses() {
               {courseData.price} 
             </del>
             <br />
-            <button className="mt-4 text-center bg-blue-600 text-white w-[99%] py-2 px-4 rounded hover:bg-blue-700 transition">
+            <button className="mt-4 text-center  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white w-[99%] py-2 px-4 rounded hover:from-purple-300 hover:to-pink-800 transition">
               {t("courses.detailsBtn")}
             </button>
           </div>
