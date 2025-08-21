@@ -65,81 +65,79 @@
   },
 
   "courseData": [
-    {
-      "id": 1,
-      "title": "Matematika",
-      "description": "",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 2,
-      "title": "Ingliz tili",
-      "description": "Grammar, Speaking va Listening bo‘yicha darslar.",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 3,
-      "title": "Arab tili",
-      "description": "Qur'on va zamonaviy arab tili asoslari.",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 4,
-      "title": "Rus tili",
-      "description": "O‘qish, yozish va gapirish ko‘nikmalari.",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 7,
-      "title": "Front-end",
-      "description": "HTML, CSS, JavaScript va React orqali sayt tuzish.",
-      "duration": "9 oy",
-      "price": "550 000 so'm/oy ",
-      "newprice": "499 000 so'm/oy"
-    },
-    {
-      "id": 8,
-      "title": "Back-end",
-      "description": "Server tomon dasturlash: Node.js, Python, bazalar.",
-      "duration": "9 oy",
-      "price": "550 000 so'm/oy ",
-      "newprice": "499 000 so'm/oy"
-    },
-    {
-      "id": 9,
-      "title": "Mental arifmetika",
-      "description": "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli.",
-      "duration": "4 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
- 
- 
-    },
-        {
-      "id": 10,
-      "title": "Kimyo",
-      "description": "Kimyo kursida siz moddalar, ularning tuzilishi, xossalari va reaksiyalarini o‘rganasiz. Laboratoriya ishlari orqali amaliy bilim olasiz.",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    },
-    {
-      "id": 11,
-      "title": "Biologiya",
-      "description": "Biologiya kursida tirik organizmlar, ularning tuzilishi, hayotiy jarayonlari va ekologik o‘zaro ta’siri o‘rganiladi.",
-      "duration": "6 oy",
-      "price": "450 000 so'm/oy ",
-      "newprice": "399 000 so'm/oy"
-    }
-  ],
+  {
+    "id": 1,
+    "title": "Ingliz tili",
+    "description": "Grammar, speaking va listening ko‘nikmalari.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 2,
+    "title": "Rus tili",
+    "description": "O‘qish, yozish va suhbatlashish darslari.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 3,
+    "title": "Arab tili",
+   "description": "Grammatika, zamonaviy arab tili va suhbat ko‘nikmalari.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 4,
+    "title": "Matematika",
+    "description": "Algebra, geometriya va masalalar yechimi.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 5,
+    "title": "Kimyo",
+    "description": "Moddalar, reaksiyalar va amaliy laboratoriya ishlari.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 6,
+    "title": "Biologiya",
+    "description": "Tirik organizmlar va hayotiy jarayonlarni o‘rganish.",
+    "duration": "6 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  },
+  {
+    "id": 7,
+    "title": "Front-end",
+    "description": "HTML, CSS, JavaScript va React orqali web dasturlash.",
+    "duration": "9 oy",
+    "price": "550 000 so'm/oy",
+    "newprice": "499 000 so'm/oy"
+  },
+  {
+    "id": 8,
+    "title": "Back-end",
+    "description": "Node.js, Python va ma’lumotlar bazalari bilan ishlash.",
+    "duration": "9 oy",
+    "price": "550 000 so'm/oy",
+    "newprice": "499 000 so'm/oy"
+  },
+  {
+    "id": 9,
+    "title": "Mental arifmetika",
+    "description": "Bolalar uchun tez hisoblash va tafakkurni rivojlantirish.",
+    "duration": "4 oy",
+    "price": "450 000 so'm/oy",
+    "newprice": "399 000 so'm/oy"
+  }
+],
   "footer": {
     "title": "ZarifaTeacher",
     "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
