@@ -163,5 +163,51 @@
     "description": "Sifatli taʼlim, tajribali ustozlar va doimiy qo‘llab-quvvatlash bilan orzularingiz sari intiling.",
     "apply": "Bepul maslahat oling",
     "number": "Muvaffaqiyatli talabalar"
+  },
+  
+"coursesHeading": "Kurslarimiz",
+"courseMentorLabel": "Kurs mentori",
+"courses": {
+  "frontend": {
+    "title": "Frontend",
+    "description": "Veb dasturlashdagi ilk qadamlar",
+    "mentor": "Zilolaxon Absalamova"
+  },
+  "englishkids": {
+    "title": "Bolalar uchun ingliz tili",
+    "description": "Bolalar uchun ingliz tili kursi",
+    "mentor": "Maftuna"
+  },
+  "math": {
+    "title": "Matematika",
+    "description": "Mantiqiy fikrlash va dasturlash asoslari",
+    "mentor": "Dilshod Sadriddinov"
+  },
+  "english": {
+    "title": "Ingliz tili",
+    "description": "Ingliz tilini o‘rganish asoslari",
+    "mentor": "Nigina Jalilova"
+  },
+  "russian": {
+    "title": "Rus tili",
+    "description": "Rus tili kursi",
+    "mentor": "Nigina Melikuziyeva"
+  },
+  "arabic": {
+    "title": "Arab tili",
+    "description": "Arab tilida o‘qish kursi",
+    "mentor": "Gulmira Xalimova"
+  },
+  "itbasics": {
+    "title": "IT asoslari",
+    "description": "Kompyuter savodxonligi ko‘nikmalari",
+    "mentor": "Zilolaxon Absalamova"
+  },
+  "mentalarithmetic": {
+    "title": "Mental arifmetika",
+    "description": "Tez hisoblash usullari",
+    "mentor": "Shoira"
   }
+}
+  
 }

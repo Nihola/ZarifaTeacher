@@ -157,7 +157,55 @@
         "description": "Empowering your success through expert mentorship, quality education, and personal growth.",
         "apply": "Get Free Consultation",
         "number": "Successful Students"
-      }
+      },
+      
+
+"coursesHeading": "Our Courses",
+"courseMentorLabel": "Course Mentor",
+"courses": {
+  "frontend": {
+    "title": "Frontend",
+    "description": "First steps in web development",
+    "mentor": "Zilolaxon Absalamova"
+  },
+  "englishkids": {
+    "title": "English kids",
+    "description": "English for children",
+    "mentor": "Maftuna"
+  },
+  "math": {
+    "title": "Mathematics",
+    "description": "Logical thinking and programming basics",
+    "mentor": "Dilshod Sadriddinov"
+  },
+  "english": {
+    "title": "English",
+    "description": "Basics of learning English",
+    "mentor": "Nigina Jalilova"
+  },
+  "russian": {
+    "title": "Russian",
+    "description": "Russian language course",
+    "mentor": "Nigina Melikuziyeva"
+  },
+  "arabic": {
+    "title": "Arabic",
+    "description": "Arabic language reading course",
+    "mentor": "Gulmira Xalimova"
+  },
+  "itbasics": {
+    "title": "IT Basics",
+    "description": "Computer literacy skills",
+    "mentor": "Zilolaxon Absalamova"
+  },
+  "mentalarithmetic": {
+    "title": "Mental Arithmetic",
+    "description": "Techniques for quick calculations",
+    "mentor": "Shoira"
+  }
+}
+
+      
       
 
 
