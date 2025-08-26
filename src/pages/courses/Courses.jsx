@@ -14,6 +14,7 @@ function Courses() {
             <h2 className="text-xl font-semibold text-blue-700 mb-2">
               {courseData.title}
             </h2>
+            <p className="text-lg font-semibold text-gray-500">{courseData.description}</p>
             <p className="text-lg font-bold ">
               {courseData.newprice} 
             </p>

@@ -8,7 +8,7 @@ const ContactSection = () => {
   return (
     <section className="w-full mx-auto max-w-[1200px] py-10 px-6 bg-[#F4F6FC] flex flex-col lg:flex-row gap-8">
       
-      {/* Chap qism - Aloqa ma'lumotlari */}
+      {/* Aloqa ma'lumotlari */}
       <div className="w-full lg:w-1/2 bg-white shadow-xl rounded-xl p-6">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">
           {t("contactSection.title")}
@@ -72,7 +72,7 @@ const ContactSection = () => {
         </a>
       </div>
 
-      {/* O‘ng qism - Google Map */}
+      {/* Google Map */}
       <div className="w-full lg:w-1/2 rounded-xl overflow-hidden shadow-xl">
         <iframe
           title="location"

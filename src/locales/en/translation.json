@@ -57,82 +57,80 @@
   "courses": {
     "detailsBtn": "Learn more"
   },
-  "courseData": [
-    {
-      "id": 1,
-      "title": "Mathematics",
-      "description": "",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 2,
-      "title": "English Language",
-      "description": "Lessons in grammar, speaking, and listening.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 3,
-      "title": "Arabic Language",
-      "description": "Basics of the Qur'an and modern Arabic.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 4,
-      "title": "Russian Language",
-      "description": "Reading, writing, and speaking skills.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 7,
-      "title": "Front-end",
-      "description": "Building websites using HTML, CSS, JavaScript, and React.",
-      "duration": "9 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-
-    {
-      "id": 8,
-      "title": "Back-end",
-      "description": "Server-side programming: Node.js, Python, databases.",
-      "duration": "9 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 9,
-      "title": "Mental Arithmetic",
-      "description": "A method to develop both hemispheres of a child's brain.",
-      "duration": "4 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 10,
-      "title": "Chemistry",
-      "description": "In the chemistry course, you will study substances, their structure, properties, and reactions, with hands-on laboratory practice.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    },
-    {
-      "id": 11,
-      "title":  "Biology",
-      "description":"In the biology course, you will study living organisms, their structure, life processes, and ecological interactions.",
-      "duration": "6 months",
-      "price": "450 000  sum/month",
-      "newprice": "399 000  sum/month"
-    }
- 
-  ],
+ "courseData": [
+  {
+    "id": 1,
+    "title": "English Language",
+    "description": "Grammar, speaking and listening skills.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 2,
+    "title": "Russian Language",
+    "description": "Reading, writing and conversation lessons.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 3,
+    "title": "Arabic Language",
+    "description": "Grammar, modern Arabic and speaking skills.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 4,
+    "title": "Mathematics",
+    "description": "Algebra, geometry and problem solving.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 5,
+    "title": "Chemistry",
+    "description": "Substances, reactions and practical lab work.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 6,
+    "title": "Biology",
+    "description": "Living organisms and life processes.",
+    "duration": "6 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  },
+  {
+    "id": 7,
+    "title": "Front-end",
+    "description": "Web development with HTML, CSS, JavaScript and React.",
+    "duration": "9 months",
+    "price": "550,000 UZS/month",
+    "newprice": "499,000 UZS/month"
+  },
+  {
+    "id": 8,
+    "title": "Back-end",
+    "description": "Node.js, Python and working with databases.",
+    "duration": "9 months",
+    "price": "550,000 UZS/month",
+    "newprice": "499,000 UZS/month"
+  },
+  {
+    "id": 9,
+    "title": "Mental Arithmetic",
+    "description": "Fast counting and thinking skills for children.",
+    "duration": "4 months",
+    "price": "450,000 UZS/month",
+    "newprice": "399,000 UZS/month"
+  }
+],
  
     "footer": {
         "title": "ZarifaTeacher",

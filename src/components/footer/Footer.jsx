@@ -69,7 +69,7 @@ const Footer = () => {
               <motion.li whileHover={{ x: 5, color: '#FFD700' }} transition={{ duration: 0.3 }}>
                 <Link to="/" className="text-white/80 hover:text-yellow-300 transition duration-300">{t('footer.home')}</Link>
               </motion.li>
-              <motion.li whileHover={{ x: 5, color: '#FFD700', backgroundColor: '#4B5EFC20' }} transition={{ duration: 0.3 }} className="rounded px-2">
+              <motion.li whileHover={{ x: 5, color: '#FFD700', backgroundColor: '#4B5EFC20' }} transition={{ duration: 0.3 }} className="rounded ">
                 <Link to="/courses" className="text-white/80 hover:text-yellow-300 transition duration-300">{t('footer.courses')}</Link>
               </motion.li>
               <motion.li whileHover={{ x: 5, color: '#FFD700' }} transition={{ duration: 0.3 }}>
