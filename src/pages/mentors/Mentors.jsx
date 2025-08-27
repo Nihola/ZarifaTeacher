@@ -32,12 +32,12 @@ export default function TeamSection() {
     },
     {
       id: 6,
-      name: "Maftuna Nazarova",
+      name: "Nigina Jalilova",
       subject: "Ingliz tili",
-      image: "https://via.placeholder.com/150"
+      image: "./mentors/maftuna.JPG"
     },{
       id: 7,
-      name: "Nigina Jalilova",
+      name: "Maftuna Nazarova",
       subject: "Ingliz tili",
       image: "https://via.placeholder.com/150"
     }
@@ -56,7 +56,7 @@ export default function TeamSection() {
               <img
                 src={teacher.image}
                 alt={teacher.name}
-                className="w-full h-56 object-cover"
+                className="w-full h-60"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold">{teacher.name}</h3>
