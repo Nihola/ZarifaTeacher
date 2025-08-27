@@ -60,9 +60,6 @@
     "button": "Kurslarni ko'rish"
   },
 
-  "courses": {
-    "detailsBtn": "Batafsil"
-  },
 
   "courseData": [
   {
@@ -71,7 +68,8 @@
     "description": "Grammar, speaking va listening ko‘nikmalari.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 2,
@@ -79,7 +77,8 @@
     "description": "O‘qish, yozish va suhbatlashish darslari.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 3,
@@ -87,7 +86,8 @@
    "description": "Grammatika, zamonaviy arab tili va suhbat ko‘nikmalari.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 4,
@@ -95,7 +95,8 @@
     "description": "Algebra, geometriya va masalalar yechimi.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 5,
@@ -103,7 +104,8 @@
     "description": "Moddalar, reaksiyalar va amaliy laboratoriya ishlari.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 6,
@@ -111,7 +113,8 @@
     "description": "Tirik organizmlar va hayotiy jarayonlarni o‘rganish.",
     "duration": "6 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 7,
@@ -119,7 +122,8 @@
     "description": "HTML, CSS, JavaScript va React orqali web dasturlash.",
     "duration": "9 oy",
     "price": "550 000 so'm/oy",
-    "newprice": "499 000 so'm/oy"
+    "newprice": "499 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 8,
@@ -127,7 +131,8 @@
     "description": "Node.js, Python va ma’lumotlar bazalari bilan ishlash.",
     "duration": "9 oy",
     "price": "550 000 so'm/oy",
-    "newprice": "499 000 so'm/oy"
+    "newprice": "499 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   },
   {
     "id": 9,
@@ -135,9 +140,51 @@
     "description": "Bolalar uchun tez hisoblash va tafakkurni rivojlantirish.",
     "duration": "4 oy",
     "price": "450 000 so'm/oy",
-    "newprice": "399 000 so'm/oy"
+    "newprice": "399 000 so'm/oy",
+    "detailsBtn": "Batafsil"
   }
 ],
+  "team": {
+    "title": "Bizning jamoa",
+    "teachers": [
+      {
+        "id": 1,
+        "name": "Dilshodbek Sadriddinov",
+        "subject": "Matematika"
+      },
+      {
+        "id": 2,
+        "name": "Shoira Aliyeva",
+        "subject": "Mental arifmetika"
+      },
+      {
+        "id": 3,
+        "name": "Zilolaxon Absalamova",
+        "subject": "Frontend"
+      },
+      {
+        "id": 4,
+        "name": "Nigina Melikuziyeva",
+        "subject": "Rus tili"
+      },
+      {
+        "id": 5,
+        "name": "Gulmira Xalimova",
+        "subject": "Arab tili"
+      },
+      {
+        "id": 6,
+        "name": "Nigina Jalilova",
+        "subject": "Ingliz tili"
+      },
+      {
+        "id": 7,
+        "name": "Maftuna Nazarova",
+        "subject": "Ingliz tili"
+      }
+    ]
+  },
+
   "footer": {
     "title": "ZarifaTeacher",
     "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",

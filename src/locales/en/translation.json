@@ -54,160 +54,157 @@
     "description": "We help students achieve academic and personal success through high-quality courses, experienced mentors, and a passion for education.",
     "button": "Explore Courses"
   },
-  "courses": {
-    "detailsBtn": "Learn more"
-  },
- "courseData": [
-  {
-    "id": 1,
-    "title": "English Language",
-    "description": "Grammar, speaking and listening skills.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 2,
-    "title": "Russian Language",
-    "description": "Reading, writing and conversation lessons.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 3,
-    "title": "Arabic Language",
-    "description": "Grammar, modern Arabic and speaking skills.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 4,
-    "title": "Mathematics",
-    "description": "Algebra, geometry and problem solving.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 5,
-    "title": "Chemistry",
-    "description": "Substances, reactions and practical lab work.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 6,
-    "title": "Biology",
-    "description": "Living organisms and life processes.",
-    "duration": "6 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  },
-  {
-    "id": 7,
-    "title": "Front-end",
-    "description": "Web development with HTML, CSS, JavaScript and React.",
-    "duration": "9 months",
-    "price": "550,000 UZS/month",
-    "newprice": "499,000 UZS/month"
-  },
-  {
-    "id": 8,
-    "title": "Back-end",
-    "description": "Node.js, Python and working with databases.",
-    "duration": "9 months",
-    "price": "550,000 UZS/month",
-    "newprice": "499,000 UZS/month"
-  },
-  {
-    "id": 9,
-    "title": "Mental Arithmetic",
-    "description": "Fast counting and thinking skills for children.",
-    "duration": "4 months",
-    "price": "450,000 UZS/month",
-    "newprice": "399,000 UZS/month"
-  }
-],
- 
-    "footer": {
-        "title": "ZarifaTeacher",
-        "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
-        "pages": "Pages",
-        "home": "Home",
-        "courses": "Courses",
-        "mentors": "Mentors",
-        "about": "About Us",
-        "contact": "Contact",
-        "contact_title": "Contact",
-        "phone": "Phone",
-        "email": "Email",
-        "location": "Toshkent, Qoraqamish 1/2",
-        "hours": "Mon–Sat: 9:00–18:00",
-        "follow": "Connect with us",
-        "rights": "All rights reserved.",
-        "text": "Empowering minds, shaping futures with every lesson."
+  "courseData": [
+    {
+      "id": 1,
+      "title": "English Language",
+      "description": "Grammar, speaking and listening skills.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
     },
-      "hero": {
-        "span": "100+ satisfied students",
-        "title": "Your journey to success",
-        "subtitle": "starts here",
-        "description": "Empowering your success through expert mentorship, quality education, and personal growth.",
-        "apply": "Get Free Consultation",
-        "number": "Successful Students"
-      },
-      
-
-"coursesHeading": "Our Courses",
-"courseMentorLabel": "Course Mentor",
-"courses": {
-  "frontend": {
-    "title": "Frontend",
-    "description": "First steps in web development",
-    "mentor": "Zilolaxon Absalamova"
+    {
+      "id": 2,
+      "title": "Russian Language",
+      "description": "Reading, writing and conversation lessons.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 3,
+      "title": "Arabic Language",
+      "description": "Grammar, modern Arabic and speaking skills.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 4,
+      "title": "Mathematics",
+      "description": "Algebra, geometry and problem solving.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 5,
+      "title": "Chemistry",
+      "description": "Substances, reactions and practical lab work.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 6,
+      "title": "Biology",
+      "description": "Living organisms and life processes.",
+      "duration": "6 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 7,
+      "title": "Front-end",
+      "description": "Web development with HTML, CSS, JavaScript and React.",
+      "duration": "9 months",
+      "price": "550,000 UZS/month",
+      "newprice": "499,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 8,
+      "title": "Back-end",
+      "description": "Node.js, Python and working with databases.",
+      "duration": "9 months",
+      "price": "550,000 UZS/month",
+      "newprice": "499,000 UZS/month",
+      "detailsBtn": "Learn more"
+    },
+    {
+      "id": 9,
+      "title": "Mental Arithmetic",
+      "description": "Fast counting and thinking skills for children.",
+      "duration": "4 months",
+      "price": "450,000 UZS/month",
+      "newprice": "399,000 UZS/month",
+      "detailsBtn": "Learn more"
+    }
+  ],
+  "footer": {
+    "title": "ZarifaTeacher",
+    "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
+    "pages": "Pages",
+    "home": "Home",
+    "courses": "Courses",
+    "mentors": "Mentors",
+    "about": "About Us",
+    "contact": "Contact",
+    "contact_title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Toshkent, Qoraqamish 1/2",
+    "hours": "Mon–Sat: 9:00–18:00",
+    "follow": "Connect with us",
+    "rights": "All rights reserved.",
+    "text": "Empowering minds, shaping futures with every lesson."
   },
-  "englishkids": {
-    "title": "English kids",
-    "description": "English for children",
-    "mentor": "Maftuna"
+  "hero": {
+    "span": "100+ satisfied students",
+    "title": "Your journey to success",
+    "subtitle": "starts here",
+    "description": "Empowering your success through expert mentorship, quality education, and personal growth.",
+    "apply": "Get Free Consultation",
+    "number": "Successful Students"
   },
-  "math": {
-    "title": "Mathematics",
-    "description": "Logical thinking and programming basics",
-    "mentor": "Dilshod Sadriddinov"
-  },
-  "english": {
-    "title": "English",
-    "description": "Basics of learning English",
-    "mentor": "Nigina Jalilova"
-  },
-  "russian": {
-    "title": "Russian",
-    "description": "Russian language course",
-    "mentor": "Nigina Melikuziyeva"
-  },
-  "arabic": {
-    "title": "Arabic",
-    "description": "Arabic language reading course",
-    "mentor": "Gulmira Xalimova"
-  },
-  "itbasics": {
-    "title": "IT Basics",
-    "description": "Computer literacy skills",
-    "mentor": "Zilolaxon Absalamova"
-  },
-  "mentalarithmetic": {
-    "title": "Mental Arithmetic",
-    "description": "Techniques for quick calculations",
-    "mentor": "Shoira"
+  "coursesHeading": "Our Courses",
+  "courseMentorLabel": "Course Mentor",
+  "courses": {
+    "frontend": {
+      "title": "Frontend",
+      "description": "First steps in web development",
+      "mentor": "Zilolaxon Absalamova"
+    },
+    "englishkids": {
+      "title": "English kids",
+      "description": "English for children",
+      "mentor": "Maftuna"
+    },
+    "math": {
+      "title": "Mathematics",
+      "description": "Logical thinking and programming basics",
+      "mentor": "Dilshod Sadriddinov"
+    },
+    "english": {
+      "title": "English",
+      "description": "Basics of learning English",
+      "mentor": "Nigina Jalilova"
+    },
+    "russian": {
+      "title": "Russian",
+      "description": "Russian language course",
+      "mentor": "Nigina Melikuziyeva"
+    },
+    "arabic": {
+      "title": "Arabic",
+      "description": "Arabic language reading course",
+      "mentor": "Gulmira Xalimova"
+    },
+    "itbasics": {
+      "title": "IT Basics",
+      "description": "Computer literacy skills",
+      "mentor": "Zilolaxon Absalamova"
+    },
+    "mentalarithmetic": {
+      "title": "Mental Arithmetic",
+      "description": "Techniques for quick calculations",
+      "mentor": "Shoira"
+    }
   }
 }
-
-      
-      
-
-
-    }
-
