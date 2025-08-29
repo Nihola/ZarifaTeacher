@@ -32,28 +32,6 @@
     "about": "About Us",
     "contact": "Contact"
   },
-  "footer": {
-    "title": "ZarifaTeacher",
-    "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
-    "pages": "Pages",
-    "home": "Home",
-    "courses": "Courses",
-    "mentors": "Mentors",
-    "about": "About Us",
-    "contact": "Contact",
-    "contact_title": "Contact",
-    "phone": "Phone",
-    "email": "Email",
-    "location": "Toshkent, Qoraqamish 1/2",
-    "hours": "Mon–Sat: 9:00–18:00",
-    "follow": "Connect with us",
-    "rights": "All rights reserved."
-  },
-  "hero": {
-    "title": "Build Your Future with ZarifaTeacher",
-    "description": "We help students achieve academic and personal success through high-quality courses, experienced mentors, and a passion for education.",
-    "button": "Explore Courses"
-  },
   "courseData": [
     {
       "id": 1,
@@ -206,5 +184,30 @@
       "description": "Techniques for quick calculations",
       "mentor": "Shoira"
     }
+  },
+  "bonus": {
+    "badge": "BONUS",
+    "offer": "Special Offer",
+    "title": "Build the future together with your friend!",
+    "desc": "Studying at ZarifaTeacher is a step towards a bright future! Invite your friend and get a 50,000 UZS bonus.",
+    "list": [
+      "✅ 💰 50,000 UZS reward for each friend",
+      "✅ 🎓 20% discount for your friend",
+      "✅ 🚀 Learn together with professional mentors"
+    ],
+    "button": "Learn More",
+    "modalTitle": "🎉 Super Promotion!",
+    "modalDesc": "Invite your friend and get a bonus!",
+    "modalCond": "📌 Promotion conditions:",
+    "condList": [
+      "✔️ You must be our student (current or former) for at least 1 month",
+      "✔️ Invite your friend to study at our academy"
+    ],
+    "modalBonus": "💎 Your bonuses:",
+    "bonusList": [
+      "💰 You will get 50,000 UZS for the next payment or course",
+      "🎁 Your friend will get a 20% discount for studying"
+    ],
+    "note": "* Promotion applies if all conditions are met"
   }
 }

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Star, ArrowRight, CheckCircle } from 'lucide-react';
 import CardComponents from '../CardComponents';
+import BonusCard from '../BonusCard';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -95,6 +96,9 @@ const Home = () => {
       </section>
 
       <CardComponents />
+      <div className='mt-5 mb-8'>
+        <BonusCard />
+      </div>
     
     </>
 

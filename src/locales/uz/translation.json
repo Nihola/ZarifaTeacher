@@ -35,32 +35,6 @@
     "about": "Biz haqimizda",
     "contact": "Aloqa"
   },
-
-  "footer": {
-    "title": "ZarifaTeacher",
-    "mission": "Biz bilan kelajagingizni yarating! O‘quv markazimiz sizga zamonaviy bilimlarni eng sifatli tarzda taqdim etadi.",
-    "pages": "Sahifalar",
-    "home": "Asosiy",
-    "courses": "Kurslar",
-    "mentors": "Mentorlar",
-    "about": "Biz haqimizda",
-    "contact": "Aloqa",
-    "contact_title": "Aloqa",
-    "phone": "Telefon",
-    "email": "Email",
-    "location": "Toshkent, Qoraqamish 1/2",
-    "hours": "Dushanba–Shanba: 9:00–18:00",
-    "follow": "Biz bilan bog‘laning",
-    "rights": "Barcha huquqlar himoyalangan."
-  },
-
-  "hero": {
-    "title": "Kelajagingizni ZarifaTeacher bilan quramiz",
-    "description": "Biz talabalarga yuqori sifatli darslar, tajribali murabbiylar va taʼlimga boʻlgan ishtiyoq orqali akademik va shaxsiy yutuqlarga erishishga yordam beramiz.",
-    "button": "Kurslarni ko'rish"
-  },
-
-
   "courseData": [
   {
     "id": 1,
@@ -255,6 +229,31 @@
     "description": "Tez hisoblash usullari",
     "mentor": "Shoira"
   }
+},
+"bonus": {
+  "badge": "BONUS",
+  "offer": "Maxsus Taklif",
+  "title": "Do'stingiz bilan birga kelajakni quring!",
+  "desc": "ZarifaTeacher'da o‘qish – bu yorqin kelajak uchun bir qadam! Do‘stingizni taklif qiling va 50 ming so‘m bonus oling.",
+  "list": [
+    "✅ 💰 Har bir do‘stingiz uchun 50 000 so‘m mukofot",
+    "✅ 🎓 Do‘stingizga 20% chegirma",
+    "✅ 🚀 Professional mentorlar bilan birga o‘qish"
+  ],
+  "button": "Batafsil",
+  "modalTitle": "🎉 Super aksiya!",
+  "modalDesc": "Do‘stingizni taklif qiling va bonus oling!",
+  "modalCond": "📌 Aksiya shartlari:",
+  "condList": [
+    "✔️ Siz bizning talabamiz (hozirgi yoki sobiq) kamida 1 oy bo‘lishingiz kerak",
+    "✔️ Do‘stingizni akademiyamizda o‘qishga taklif qiling"
+  ],
+  "modalBonus": "💎 Sizning bonuslaringiz:",
+  "bonusList": [
+    "💰 Keyingi to‘lov yoki kurs uchun 50 000 so‘m olasiz",
+    "🎁 Do‘stingiz o‘qish uchun 20% chegirma oladi"
+  ],
+  "note": "* Aksiya barcha shartlar bajarilganda amal qiladi"
 }
   
 }
