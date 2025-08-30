@@ -254,6 +254,21 @@
     "🎁 Do‘stingiz o‘qish uchun 20% chegirma oladi"
   ],
   "note": "* Aksiya barcha shartlar bajarilganda amal qiladi"
-}
-  
+},
+
+  "about.tagline": "🗓️ ZarifaTeacher 2023-yilda tashkil topgan",
+  "about.title": "Zarifa Teacher",
+  "about.subtitle": "Oliy ta'lim dargohi uchun tayyorlov, til va IT",
+  "about.description": "Zarifa Teacher - turli ilm olish imkoniyatlarini o'zida qamrab olgan o'quv markaz. 2023-yildan buyon biz yuzlab yoshlarga ta'lim berib kelmoqdimiz. Bizning maqsadimiz - ilm-fan sohasidagi yetuk kadrlarni tarbiyalash. Biz sizga ta'lim sohasiga kirishingiz va o'z bilim darajangizni oshirish uchun yordam beramiz.",
+  "features.programming.title": "Zamonaviy dasturlash",
+  "features.programming.desc": "Eng soʻnggi texnologiyalar va dasturlash tillarini oʻrgatamiz",
+  "features.certificates.title": "Xalqaro va milliy sertifikatlarni olish",
+  "features.certificates.desc": "Professional mentorlar bilan imtixonlarga birga tayyorgarlik",
+  "features.languages.title": "Chet tillarini oʻzlashtirish",
+  "features.languages.desc": "Ingliz, rus va arab tilini oʻzlashtirish imkoniyati",
+  "stats.students.label": "Muvaffaqiyatli bitiruvchilar",
+  "stats.mentors.label": "Professional oʻqituvchilar",
+  "stats.courses.label": "Zamonaviy kurslar",
+  "stats.successRate.label": "Oliygoh talabasi boʻlish darajasi"
+
 }

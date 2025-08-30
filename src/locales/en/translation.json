@@ -209,5 +209,21 @@
       "🎁 Your friend will get a 20% discount for studying"
     ],
     "note": "* Promotion applies if all conditions are met"
-  }
+  },
+
+  "about.tagline": "🗓️ ZarifaTeacher Founded in 2023",
+  "about.title": "Zarifa Teacher",
+  "about.subtitle": "Preparation for Higher Education, Languages, and IT",
+  "about.description": "Zarifa Teacher is a learning center that encompasses various educational opportunities. Since 2023, we have been providing education to hundreds of young people. Our goal is to nurture skilled professionals in the field of science and knowledge. We help you enter the education sector and enhance your knowledge level.",
+  "features.programming.title": "Modern Programming",
+  "features.programming.desc": "We teach the latest technologies and programming languages",
+  "features.certificates.title": "International and National Certifications",
+  "features.certificates.desc": "Prepare for exams with professional mentors",
+  "features.languages.title": "Mastering Foreign Languages",
+  "features.languages.desc": "Opportunities to learn English, Russian, and Arabic",
+  "stats.students.label": "Successful Graduates",
+  "stats.mentors.label": "Professional Teachers",
+  "stats.courses.label": "Modern Courses",
+  "stats.successRate.label": "Higher Education Admission Rate"
+
 }
