@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Star, ArrowRight, CheckCircle } from 'lucide-react';
 import CardComponents from '../CardComponents';
 import BonusCard from '../BonusCard';
+import Certificates from '../Certificates';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -96,6 +97,7 @@ const Home = () => {
       </section>
 
       <CardComponents />
+      <Certificates/>
       <div className='mt-5 mb-8'>
         <BonusCard />
       </div>
