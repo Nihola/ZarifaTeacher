@@ -36,7 +36,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white text-gray-800 shadow-lg fixed w-full z-50">
+    <header className="bg-white text-gray-800 shadow-lg fixed w-full z-60">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* ✨ Enhanced Logo with gradient and animated effects */}
         <div className="text-3xl font-extrabold tracking-tight relative flex items-center group">
@@ -62,7 +62,7 @@ const Header = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-8 h-8  text-indigo-500"
+              className="w-8 h-8 text-indigo-500"
               animate={{
                 y: [0, -4, 0],
                 rotate: [0, 10, -10, 0],

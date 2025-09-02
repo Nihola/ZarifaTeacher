@@ -269,6 +269,22 @@
   "stats.students.label": "Muvaffaqiyatli bitiruvchilar",
   "stats.mentors.label": "Professional oʻqituvchilar",
   "stats.courses.label": "Zamonaviy kurslar",
-  "stats.successRate.label": "Oliygoh talabasi boʻlish darajasi"
+  "stats.successRate.label": "Oliygoh talabasi boʻlish darajasi",
+  
+    "certificates": {
+      "title": "O'quvchilarning sertifikatlari",
+      "issuedBy": "Beruvchi",
+      "items": {
+        "english": "Ingliz tili"
+      }
+    },
+    
+      "specialPage": {
+        "heading": "Maxsus taklif",
+        "subheading": "Sizning muvaffaqiyat sari sayohatingiz shu yerdan boshlanadi",
+        "description": "Har bir dars bilan onglarni quvvatlantirib, kelajakni shakllantiramiz."
+      }
+    
+  
 
 }

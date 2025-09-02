@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Certificates() {
+    const { t } = useTranslation();
+
     const certificates = [
-        { id: 1, title: 'Ingliz tili', issuer: 'CEFR', year: '2024', image: './sertificate1.png' },
-        { id: 2, title: 'Ingliz tili', issuer: 'CEFR', year: '2025', image: './sertificate2.png' },
-        { id: 3, title: 'Ingliz tili', issuer: 'CEFR', year: '2025', image: './sertificate3.png' },
-        { id: 4, title: 'Ingliz tili', issuer: 'CEFR', year: '2024', image: './sertificate4.png' }
-         
+        { id: 1, title: t("certificates.items.english"), issuer: "CEFR", year: "2024", image: "./sertificate1.png" },
+        { id: 2, title: t("certificates.items.english"), issuer: "CEFR", year: "2025", image: "./sertificate2.png" },
+        { id: 3, title: t("certificates.items.english"), issuer: "CEFR", year: "2025", image: "./sertificate3.png" },
+        { id: 4, title: t("certificates.items.english"), issuer: "CEFR", year: "2024", image: "./sertificate4.png" }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,7 +37,7 @@ function Certificates() {
         <div className=" bg-gradient-to-br from-gray-50 to-gray-200 flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
             <div className="w-full max-w-7xl">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8 text-gray-900 tracking-tight">
-                    O'quvchilarning sertifikatlari
+                    {t("certificates.title")}
                 </h2>
                 <div className="relative overflow-hidden rounded-2xl shadow-xl bg-white/80 backdrop-blur-sm">
                     {/* Carousel Container */}
@@ -45,7 +47,7 @@ function Certificates() {
                     >
                         {certificates.map((cert) => (
                             <div key={cert.id} className="min-w-full p-5 sm:p-6">
-                                <div className="  rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 max-w-lg mx-auto">
+                                <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 max-w-lg mx-auto">
                                     <div className="relative">
                                         <img
                                             src={cert.image}
@@ -58,8 +60,9 @@ function Certificates() {
                                     </div>
                                     <div className="p-6">
                                         <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-2">{cert.title}</h3>
-                                        <p className="text-sm sm:text-base text-gray-600 mb-1">Issued by: {cert.issuer}</p>
-                                    
+                                        <p className="text-sm sm:text-base text-gray-600 mb-1">
+                                            {t("certificates.issuedBy")}: {cert.issuer}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +93,7 @@ function Certificates() {
                             <button
                                 key={index}
                                 onClick={() => !isTransitioning && setCurrentIndex(index)}
-                                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-all duration-300 ${currentIndex === index ? 'bg-indigo-600 scale-125' : 'bg-gray-300 hover:bg-gray-400'
+                                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-all duration-300 ${currentIndex === index ? "bg-indigo-600 scale-125" : "bg-gray-300 hover:bg-gray-400"
                                     }`}
                                 disabled={isTransitioning}
                             />

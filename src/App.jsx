@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Timer from './components/Timer';
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -12,7 +13,8 @@ export default function App() {
   return (
     <div>
       <Header/>
-      <main>
+      <Timer/>
+      <main className='pt-15 md:pt-20 sm:pt-39'>
         <Outlet/>
       </main> 
  

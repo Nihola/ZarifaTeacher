@@ -301,7 +301,23 @@
   "stats.students.label": "Успешные выпускники",
   "stats.mentors.label": "Профессиональные преподаватели",
   "stats.courses.label": "Современные курсы",
-  "stats.successRate.label": "Уровень поступления в вузы"
+  "stats.successRate.label": "Уровень поступления в вузы",
+  
+    "certificates": {
+      "title": "Сертификаты учеников",
+      "issuedBy": "Выдано",
+      "items": {
+        "english": "Английский язык"
+      }
+    },
+    
+      "specialPage": {
+        "heading": "Специальное предложение",
+        "subheading": "Ваш путь к успеху начинается здесь",
+        "description": "Вдохновляя умы, формируем будущее с каждым уроком."
+      }
+    
+  
 
   
 }

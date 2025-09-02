@@ -224,6 +224,21 @@
   "stats.students.label": "Successful Graduates",
   "stats.mentors.label": "Professional Teachers",
   "stats.courses.label": "Modern Courses",
-  "stats.successRate.label": "Higher Education Admission Rate"
+  "stats.successRate.label": "Higher Education Admission Rate",
+  
+    "certificates": {
+      "title": "Students' Certificates",
+      "issuedBy": "Issued by",
+      "items": {
+        "english": "English Language"
+      }
+    },
+    
+      "specialPage": {
+        "heading": "Special Offer",
+        "subheading": "Your journey to success starts here",
+        "description": "Empowering minds, shaping futures with every lesson."
+      }
+    
 
 }
