@@ -147,20 +147,77 @@ const Footer = () => {
         <div className="md:hidden">
           <div className="mb-8">
             <h4 className="font-semibold text-lg mb-4 text-yellow-300">Contact Us</h4>
-            <ul className="space-y-3">
-              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80">
-                <span className="bg-blue-600/50 p-2 rounded-full"><FiPhone className="text-lg" /></span> <span>+998 94 247 71 75</span>
+            {/* <ul className="space-y-3">
+              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80 cursor-pointer">
+                <span className="bg-blue-600/50 p-2 rounded-full"><FiPhone className="text-lg" /></span> <a href="tel:+998942477175"> +998 94 247 71 75 </a>
               </motion.li>
-              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80">
-                <span className="bg-blue-600/50 p-2 rounded-full"><FiMail className="text-lg" /></span> <span>teacherzarifa@gmail.com</span>
+              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80 cursor-pointer">
+                <span className="bg-blue-600/50 p-2 rounded-full"><FiMail className="text-lg" /></span> <a href="mailto:teacherzarifa@gmail.com"> teacherzarifa@gmail.com </a>
               </motion.li>
-              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80">
+              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80 cursor-pointer">
                 <span className="bg-blue-600/50 p-2 rounded-full"><FiMapPin className="text-lg" /></span> <span>{t('footer.location')}</span>
               </motion.li>
-              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80">
+              <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80 cursor-pointer">
                 <span className="bg-blue-600/50 p-2 rounded-full"><FiClock className="text-lg" /></span> <span>{t('footer.hours')}</span>
               </motion.li>
+            </ul> */}
+            <ul className="space-y-3">
+              {/* Phone */}
+              <motion.li
+                whileHover={{ x: 5 }}
+                transition={{ duration: 0.3 }}
+                className="flex items-center gap-2 text-white/80 hover:text-white cursor-pointer"
+              >
+                <a href="tel:+998942477175" className="flex items-center gap-2 w-full">
+                  <span className="bg-blue-600/50 p-2 rounded-full">
+                    <FiPhone className="text-lg" />
+                  </span>
+                  <span>+998 94 247 71 75</span>
+                </a>
+              </motion.li>
+
+              {/* Email */}
+              <motion.li
+                whileHover={{ x: 5 }}
+                transition={{ duration: 0.3 }}
+                className="flex items-center gap-2 text-white/80 hover:text-white cursor-pointer"
+              >
+                <a
+                  href="mailto:teacherzarifa@gmail.com"
+                  className="flex items-center gap-2 w-full"
+                >
+                  <span className="bg-blue-600/50 p-2 rounded-full">
+                    <FiMail className="text-lg" />
+                  </span>
+                  <span>teacherzarifa@gmail.com</span>
+                </a>
+              </motion.li>
+
+              {/* Location (not a link) */}
+              <motion.li
+                whileHover={{ x: 5 }}
+                transition={{ duration: 0.3 }}
+                className="flex items-center gap-2 text-white/80"
+              >
+                <span className="bg-blue-600/50 p-2 rounded-full">
+                  <FiMapPin className="text-lg" />
+                </span>
+                <span>{t("footer.location")}</span>
+              </motion.li>
+
+              {/* Hours (not a link) */}
+              <motion.li
+                whileHover={{ x: 5 }}
+                transition={{ duration: 0.3 }}
+                className="flex items-center gap-2 text-white/80"
+              >
+                <span className="bg-blue-600/50 p-2 rounded-full">
+                  <FiClock className="text-lg" />
+                </span>
+                <span>{t("footer.hours")}</span>
+              </motion.li>
             </ul>
+
           </div>
           <div>
             <h4 className="font-semibold text-lg mb-4 text-yellow-300">Follow Us</h4>

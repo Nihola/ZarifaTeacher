@@ -34,7 +34,7 @@ function Certificates() {
     }, [currentIndex]);
 
     return (
-        <div className=" bg-gradient-to-br from-gray-50 to-gray-200 flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
+        <div className=" bg-gradient-to-br from-gray-50 to-gray-200 flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 max-sm:pt-10">
             <div className="w-full max-w-7xl">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8 text-gray-900 tracking-tight">
                     {t("certificates.title")}

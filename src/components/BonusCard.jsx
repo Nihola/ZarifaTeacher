@@ -6,7 +6,7 @@ export default function BonusCard() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="max-w-7xl mx-auto p-4 xl:p-6">
+        <div className="max-w-7xl mx-auto p-4 xl:p-6 max-sm:pt-10">
 
             <section className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row items-center hover:shadow-2xl hover:-translate-y-1 transition-all duration-500">
 

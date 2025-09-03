@@ -44,7 +44,7 @@ export default function TeamSection() {
   ];
 
   return (
-    <section className="py-30 bg-gray-50" id="team">
+    <section className="py-30 bg-gray-50 max-sm:pt-40" id="team">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-10">Bizning jamoa</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

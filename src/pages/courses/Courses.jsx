@@ -7,7 +7,7 @@ function Courses() {
   const courseList = t("courseData", { returnObjects: true });
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6 py-30">
+    <div className="min-h-screen bg-gray-100 p-6 py-30 max-sm:pt-40">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {courseList.map((courseData, index) => (
           <div key={index} className="bg-white p-6  rounded-lg shadow-md hover:shadow-lg transition">

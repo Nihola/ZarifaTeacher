@@ -14,7 +14,7 @@ export default function App() {
     <div>
       <Header/>
       <Timer/>
-      <main className='pt-15 md:pt-20 sm:pt-39'>
+      <main className='pt-15 md:pt-20 sm:pt-60 max-sm:80'>
         <Outlet/>
       </main> 
  

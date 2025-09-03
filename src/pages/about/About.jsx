@@ -66,7 +66,7 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    <div className="min-h-screen bg-white text-gray-900 max-sm:pt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-32">
         {/* Header Section */}
         <header className="text-center space-y-6 sm:space-y-8">
