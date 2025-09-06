@@ -7,7 +7,7 @@ export default function CardComponents() {
     // Fixed image paths and IDs for each course
     const courses = [
         { id: "frontend", image: "./frontend.png", mentorImage: "./mentors/zilola.JPG" },
-        { id: "englishkids", image: "./englishkids.png", mentorImage: "./mentors/maftuna.JPG" },
+        { id: "englishkids", image: "./englishkids.png", mentorImage: "./mentors/jalilova.JPG" },
         { id: "math", image: "./math.png", mentorImage: "./mentors/dilshod.JPG" },
         { id: "english", image: "./english.png", mentorImage: "https://i.pravatar.cc/32?img=5" },
         { id: "russian", image: "./russian.png", mentorImage: "./mentors/nigina.JPG" },

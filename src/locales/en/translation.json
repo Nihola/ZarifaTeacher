@@ -115,6 +115,9 @@
       "detailsBtn": "Learn more"
     }
   ],
+    "team": {
+    "title": "Our Team"
+  },
   "footer": {
     "title": "ZarifaTeacher",
     "mission": "Create your future with us! Our learning center provides you with modern knowledge in the highest quality.",
@@ -152,7 +155,7 @@
     "englishkids": {
       "title": "English kids",
       "description": "English for children",
-      "mentor": "Maftuna"
+      "mentor": "Nigina Jalilova"
     },
     "math": {
       "title": "Mathematics",
@@ -162,7 +165,7 @@
     "english": {
       "title": "English",
       "description": "Basics of learning English",
-      "mentor": "Nigina Jalilova"
+      "mentor": "Maftuna Nazarova"
     },
     "russian": {
       "title": "Russian",

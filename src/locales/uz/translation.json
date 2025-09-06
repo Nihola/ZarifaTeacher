@@ -119,44 +119,7 @@
   }
 ],
   "team": {
-    "title": "Bizning jamoa",
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Dilshodbek Sadriddinov",
-        "subject": "Matematika"
-      },
-      {
-        "id": 2,
-        "name": "Shoira Aliyeva",
-        "subject": "Mental arifmetika"
-      },
-      {
-        "id": 3,
-        "name": "Zilolaxon Absalamova",
-        "subject": "Frontend"
-      },
-      {
-        "id": 4,
-        "name": "Nigina Melikuziyeva",
-        "subject": "Rus tili"
-      },
-      {
-        "id": 5,
-        "name": "Gulmira Xalimova",
-        "subject": "Arab tili"
-      },
-      {
-        "id": 6,
-        "name": "Nigina Jalilova",
-        "subject": "Ingliz tili"
-      },
-      {
-        "id": 7,
-        "name": "Maftuna Nazarova",
-        "subject": "Ingliz tili"
-      }
-    ]
+    "title": "Bizning jamoa"
   },
 
   "footer": {
@@ -197,7 +160,7 @@
   "englishkids": {
     "title": "Bolalar uchun ingliz tili",
     "description": "Bolalar uchun ingliz tili kursi",
-    "mentor": "Maftuna"
+    "mentor": "Nigina Jalilova"
   },
   "math": {
     "title": "Matematika",
@@ -207,7 +170,7 @@
   "english": {
     "title": "Ingliz tili",
     "description": "Ingliz tilini o‘rganish asoslari",
-    "mentor": "Nigina Jalilova"
+    "mentor": "Maftuna Nazarova"
   },
   "russian": {
     "title": "Rus tili",

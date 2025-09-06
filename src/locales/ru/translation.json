@@ -56,85 +56,10 @@
     "apply": "Посмотреть курсы"
   },
   "team": {
-    "title": "Наша команда",
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Дилшодбек Садриддинов",
-        "subject": "Математика"
-      },
-      {
-        "id": 2,
-        "name": "Шоира Алиева",
-        "subject": "Ментальная арифметика"
-      },
-      {
-        "id": 3,
-        "name": "Зилолахон Абсаламова",
-        "subject": "Фронтенд"
-      },
-      {
-        "id": 4,
-        "name": "Нигина Меликузиева",
-        "subject": "Русский язык"
-      },
-      {
-        "id": 5,
-        "name": "Гульмира Халимова",
-        "subject": "Арабский язык"
-      },
-      {
-        "id": 6,
-        "name": "Нигина Жалилова",
-        "subject": "Английский язык"
-      },
-      {
-        "id": 7,
-        "name": "Мафтуна Назарова",
-        "subject": "Английский язык"
-      }
-    ]
+    "title": "Наша команда"
+    
   },
-  "team": {
-    "title": "Our Team",
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Dilshodbek Sadriddinov",
-        "subject": "Mathematics"
-      },
-      {
-        "id": 2,
-        "name": "Shoira Aliyeva",
-        "subject": "Mental Arithmetic"
-      },
-      {
-        "id": 3,
-        "name": "Zilolaxon Absalamova",
-        "subject": "Frontend"
-      },
-      {
-        "id": 4,
-        "name": "Nigina Melikuziyeva",
-        "subject": "Russian Language"
-      },
-      {
-        "id": 5,
-        "name": "Gulmira Xalimova",
-        "subject": "Arabic Language"
-      },
-      {
-        "id": 6,
-        "name": "Nigina Jalilova",
-        "subject": "English Language"
-      },
-      {
-        "id": 7,
-        "name": "Maftuna Nazarova",
-        "subject": "English Language"
-      }
-    ]
-  },
+  
   "courseData": [
     {
       "id": 1,
@@ -229,7 +154,7 @@
     "englishkids": {
       "title": "Английский для детей",
       "description": "Курс английского языка для детей",
-      "mentor": "Мафтуна"
+      "mentor": "Нигина Джалилова"
     },
     "math": {
       "title": "Математика",
@@ -239,7 +164,7 @@
     "english": {
       "title": "Английский язык",
       "description": "Основы изучения английского языка",
-      "mentor": "Нигина Джалилова"
+      "mentor": "Мафтуна"
     },
     "russian": {
       "title": "Русский язык",
