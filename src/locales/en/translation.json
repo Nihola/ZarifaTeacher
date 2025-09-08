@@ -12,7 +12,8 @@
     "phone": "Your phone number",
     "phone_placeholder": "+998...",
     "submit": "Send",
-    "success": "Information sent!"
+    "success": "Information sent!",
+    "error": "Something went wrong. Please try again."
   },
   "contactSection": {
     "title": "Contact us",
@@ -233,12 +234,12 @@
         "english": "English Language"
       }
     },
-    
-      "specialPage": {
-        "heading": "Special Offer",
-        "subheading": "Your journey to success starts here",
-        "description": "Empowering minds, shaping futures with every lesson."
-      }
+    "discountMessage": "Course Discount Ends Soon!",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "submitNow": "Submit Contact Now"
     
 
 }

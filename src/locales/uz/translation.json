@@ -13,7 +13,8 @@
     "phone": "Telefon raqamingiz",
     "phone_placeholder": "+998...",
     "submit": "Yuborish",
-    "success": "Ma'lumot yuborildi!"
+    "success": "Ma'lumot yuborildi!",
+    "error": "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring."
   },
 
   "contactSection": {
@@ -278,12 +279,14 @@
         "english": "Ingliz tili"
       }
     },
+    "discountMessage": "Kurs chegirmasi tez orada tugaydi!",
+    "days": "Kun",
+    "hours": "Soat",
+    "minutes": "Daqiqa",
+    "seconds": "Soniya",
+    "submitNow": "Bog‘lanish uchun yuborish"
     
-      "specialPage": {
-        "heading": "Maxsus taklif",
-        "subheading": "Sizning muvaffaqiyat sari sayohatingiz shu yerdan boshlanadi",
-        "description": "Har bir dars bilan onglarni quvvatlantirib, kelajakni shakllantiramiz."
-      }
+ 
     
   
 

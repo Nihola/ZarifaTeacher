@@ -12,7 +12,8 @@
     "phone": "Ваш номер телефона",
     "phone_placeholder": "+998...",
     "submit": "Отправить",
-    "success": "Данные отправлены!"
+    "success": "Данные отправлены!",
+    "error": "Произошла ошибка. Попробуйте еще раз."
   },
   "contactSection": {
     "title": "Связаться с нами",
@@ -95,46 +96,7 @@
       }
     ]
   },
-  "team": {
-    "title": "Our Team",
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Dilshodbek Sadriddinov",
-        "subject": "Mathematics"
-      },
-      {
-        "id": 2,
-        "name": "Shoira Aliyeva",
-        "subject": "Mental Arithmetic"
-      },
-      {
-        "id": 3,
-        "name": "Zilolaxon Absalamova",
-        "subject": "Frontend"
-      },
-      {
-        "id": 4,
-        "name": "Nigina Melikuziyeva",
-        "subject": "Russian Language"
-      },
-      {
-        "id": 5,
-        "name": "Gulmira Xalimova",
-        "subject": "Arabic Language"
-      },
-      {
-        "id": 6,
-        "name": "Nigina Jalilova",
-        "subject": "English Language"
-      },
-      {
-        "id": 7,
-        "name": "Maftuna Nazarova",
-        "subject": "English Language"
-      }
-    ]
-  },
+  
   "courseData": [
     {
       "id": 1,
@@ -310,12 +272,15 @@
         "english": "Английский язык"
       }
     },
+    "discountMessage": "Скидка на курс скоро закончится!",
+    "days": "Дни",
+    "hours": "Часы",
+    "minutes": "Минуты",
+    "seconds": "Секунды",
+    "submitNow": "Оставить заявку"
     
-      "specialPage": {
-        "heading": "Специальное предложение",
-        "subheading": "Ваш путь к успеху начинается здесь",
-        "description": "Вдохновляя умы, формируем будущее с каждым уроком."
-      }
+    
+ 
     
   
 

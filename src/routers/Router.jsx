@@ -5,6 +5,7 @@ import Contact from './../pages/contact/Contact';
 import Home from './../components/home/Home';
 import Mentors from './../pages/mentors/Mentors';
 import Courses from './../pages/courses/Courses';
+import CourseDetails from "../components/CourseDetails";
 export const Router=createBrowserRouter([
     {
         path:"/",
@@ -30,6 +31,10 @@ export const Router=createBrowserRouter([
                 path: "/courses",
                 element: <Courses />
             },
+            {
+                path:"/courses/:id",
+                element:<CourseDetails/>
+            }            
 
         ]
     }
