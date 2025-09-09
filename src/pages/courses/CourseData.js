@@ -24,9 +24,9 @@ const courses = [
     description: "Grammar, Speaking va Listening bo‘yicha darslar.",
     duration: "6 oy",
     price: 399000,
-    mentor: "Nigina Jalilova",
+    mentor: "Maftuna Nazarova",
     image: "./english.png",
-    mentorImage: "./mentors/nigina.JPG",
+    mentorImage: "./mentors/maftuna.JPG",
     content: [
       "Grammar asoslari",
       "Speaking mashg‘ulotlari",
@@ -41,9 +41,9 @@ const courses = [
     description: "Bolalar uchun qiziqarli ingliz tili mashg‘ulotlari.",
     duration: "6 oy",
     price: 399000,
-    mentor: "Maftuna Nazarova",
+    mentor: "Nigina Jalilova ",
     image: "./englishkids.png",
-    mentorImage: "./mentors/maftuna.JPG",
+    mentorImage: "./mentors/nigina.JPG",
     content: [
       "Alifbo va so‘z boyligi",
       "O‘yinlar orqali o‘rganish",
