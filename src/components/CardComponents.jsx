@@ -9,7 +9,7 @@ export default function CardComponents() {
         { id: "frontend", image: "./frontend.png", mentorImage: "./mentors/zilola.JPG" },
         { id: "englishkids", image: "./englishkids.png", mentorImage: "./mentors/maftuna.JPG" },
         { id: "math", image: "./math.png", mentorImage: "./mentors/dilshod.JPG" },
-        { id: "english", image: "./english.png", mentorImage: "https://i.pravatar.cc/32?img=5" },
+        { id: "english", image: "./english.png", mentorImage: "./mentors/jalilova.JPG" },
         { id: "russian", image: "./russian.png", mentorImage: "./mentors/nigina.JPG" },
         { id: "arabic", image: "./arabic.png", mentorImage: "./mentors/gulmira.JPG" },
         { id: "itbasics", image: "./itbasics.png", mentorImage: "./mentors/zilola.JPG" },

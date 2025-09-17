@@ -86,23 +86,23 @@ const courses = [
     ],
     lastPrice :450000
   },
-  {
-    id: "pochemuchka",
-    title: "Pochemuchka",
-    description: "Bolalar uchun qiziqarli bilimlar olami.",
-    duration: "3 oy",
+ {
+    id: "mental-arifmetika",
+    title: "Mental arifmetika",
+    description: "Bolalarning tezkor hisoblash va mantiqiy fikrlash qobiliyatini rivojlantiruvchi kurs.",
+    duration: "4 oy",
     price: 399000,
-    mentor: "Shoira",
-    image: "./pochemuchka.png",
+    mentor: "Shoira Aliyeva",
+    image: "./mental-arifmetika.png",
     mentorImage: "./mentors/shoira.JPG",
     content: [
-      "Tabiat va hayvonot dunyosi",
-      "Ilmiy tajribalar",
-      "Rangli mashg‘ulotlar",
-      "Ijodiy topshiriqlar"
+      "Tezkor hisoblash usullari",
+      "Mantiqiy mashqlar",
+      "Diqqatni jamlash o‘yinlari",
+      "Xotirani mustahkamlash mashqlari"
     ],
-    lastPrice :450000
-  },
+    lastPrice: 450000
+} ,
   {
     id: "itbasics",
     title: "IT asoslari",
@@ -153,23 +153,6 @@ const courses = [
       "API yaratish"
     ],
     lastPrice:550000
-  },
-  {
-    id: "mentalarithmetic",
-    title: "Mental arifmetika",
-    description: "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli.",
-    duration: "4 oy",
-    price: 399000,
-    mentor: "Shoira",
-    image: "./mentalarithmetic.png",
-    mentorImage: "./mentors/shoira.JPG",
-    content: [
-      "Asosiy hisoblash usullari",
-      "Miya mashqlari",
-      "Tez fikrlash metodlari",
-      "Amaliy mashg‘ulotlar"
-    ],
-    lastPrice :450000
   }
 ];
 

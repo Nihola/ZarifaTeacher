@@ -153,7 +153,7 @@
     "englishkids": {
       "title": "English kids",
       "description": "English for children",
-      "mentor": "Maftuna"
+      "mentor": "Nigina Jalilova"
     },
     "math": {
       "title": "Mathematics",
@@ -163,7 +163,7 @@
     "english": {
       "title": "English",
       "description": "Basics of learning English",
-      "mentor": "Nigina Jalilova"
+      "mentor": "Maftuna Nazarova"
     },
     "russian": {
       "title": "Russian",
@@ -183,7 +183,7 @@
     "mentalarithmetic": {
       "title": "Mental Arithmetic",
       "description": "Techniques for quick calculations",
-      "mentor": "Shoira"
+      "mentor": "Shoira Aliyeva"
     }
   },
   "bonus": {
