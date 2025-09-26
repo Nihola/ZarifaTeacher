@@ -9,7 +9,7 @@ export default function CardComponents() {
         { id: "frontend", image: "./frontend.png", mentorImage: "./mentors/zilola.JPG" },
         { id: "englishkids", image: "./englishkids.png", mentorImage: "./mentors/maftuna.JPG" },
         { id: "math", image: "./math.png", mentorImage: "./mentors/dilshod.JPG" },
-        { id: "english", image: "./english.png", mentorImage: "https://i.pravatar.cc/32?img=5" },
+        { id: "english", image: "./english.png", mentorImage: "./mentors/jalilova.JPG" },
         { id: "russian", image: "./russian.png", mentorImage: "./mentors/nigina.JPG" },
         { id: "arabic", image: "./arabic.png", mentorImage: "./mentors/gulmira.JPG" },
         { id: "itbasics", image: "./itbasics.png", mentorImage: "./mentors/zilola.JPG" },
@@ -33,7 +33,7 @@ export default function CardComponents() {
                                 className="bg-white rounded-[30px] py-5 flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start h-auto sm:h-[300px] gap-4 hover:shadow-lg transition-shadow duration-300 relative group p-4"
                             >
                                 {/* Image Section */}
-                                <div className="w-full sm:w-[220px] md:w-[260px] bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 rounded-[18px] flex items-center justify-center h-[200px] sm:h-full transition-all duration-300 relative">
+                                <div className="w-full sm:w-[220px] md:w-[300px] bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 rounded-[18px] flex items-center justify-center h-[200px] sm:h-full transition-all duration-300 relative">
                                     <img
                                         src={course.image}
                                         alt={t(`${courseKey}.title`)}

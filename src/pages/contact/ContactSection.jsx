@@ -6,16 +6,16 @@ const ContactSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full mx-auto max-w-[1200px] py-10 px-6 bg-[#F4F6FC] flex flex-col lg:flex-row gap-8 ">
+    <section className="w-full mx-auto max-w-[1200px] py-10 px-4 bg-[#F4F6FC] flex flex-col lg:flex-row gap-8 ">
       
       {/* Aloqa ma'lumotlari */}
-      <div className="w-full lg:w-1/2 bg-white shadow-xl rounded-xl p-6">
+      <div className="w-full min-h-[350px] lg:w-1/2 bg-white shadow-xl rounded-xl p-6">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">
           {t("contactSection.title")}
         </h2>
 
         {/* Telegram */}
-        <a href="https://t.me/zarifa_education" target="_blank" rel="noopener noreferrer" className="block">
+        <a href="https://t.me/zarifa_education" target="_blank" rel="noopener noreferrer" className="block ">
           <div className="flex items-center gap-4 bg-white p-4 rounded-lg mb-4 hover:shadow-lg transition">
             <span className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white p-3 rounded-lg">
               <FaTelegram className="text-xl" />
@@ -79,7 +79,7 @@ const ContactSection = () => {
           src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5989.862778913475!2d69.234749!3d41.353845!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIxJzEzLjgiTiA2OcKwMTQnMDUuMSJF!5e0!3m2!1sru!2s!4v1751535503350!5m2!1sru!2s"
           width="100%"
           height="100%"
-          className="min-h-[400px] w-full border-0"
+          className="min-h-[300px] w-full border-0"
           allowFullScreen=""
           loading="lazy"
         ></iframe>
