@@ -86,23 +86,7 @@ const courses = [
     ],
     lastPrice :450000
   },
-  {
-    id: "pochemuchka",
-    title: "Pochemuchka",
-    description: "Bolalar uchun qiziqarli bilimlar olami.",
-    duration: "3 oy",
-    price: 399000,
-    mentor: "Shoira",
-    image: "./pochemuchka.png",
-    mentorImage: "./mentors/shoira.JPG",
-    content: [
-      "Tabiat va hayvonot dunyosi",
-      "Ilmiy tajribalar",
-      "Rangli mashg‘ulotlar",
-      "Ijodiy topshiriqlar"
-    ],
-    lastPrice :450000
-  },
+
   {
     id: "itbasics",
     title: "IT asoslari",
