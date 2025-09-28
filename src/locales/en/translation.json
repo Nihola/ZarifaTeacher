@@ -240,7 +240,119 @@
     "hours": "Hours",
     "minutes": "Minutes",
     "seconds": "Seconds",
-    "submitNow": "Submit Contact Now"
+    "submitNow": "Submit Contact Now",
+    
+      "courses2": {
+        "math": {
+          "title": "Mathematics",
+          "description": "Lessons on algebra, geometry, and applied problems.",
+          "mentor": "Dilshod Sadriddinov",
+          "content": [
+            "Basic math concepts",
+            "Algebraic expressions",
+            "Geometry fundamentals",
+            "Practice sessions and tests"
+          ]
+        },
+        "english": {
+          "title": "English Language",
+          "description": "Lessons on Grammar, Speaking, and Listening.",
+          "mentor": "Maftuna Nazarova",
+          "content": [
+            "Grammar basics",
+            "Speaking practice",
+            "Listening and pronunciation",
+            "Exam preparation"
+          ]
+        },
+        "englishkids": {
+          "title": "English Kids",
+          "description": "Fun English lessons for kids.",
+          "mentor": "Nigina Jalilova",
+          "content": [
+            "Alphabet and vocabulary",
+            "Learning through games",
+            "Songs and stories",
+            "Fun exercises"
+          ]
+        },
+        "arabic": {
+          "title": "Arabic Language",
+          "description": "Basics of the Qur'an and modern Arabic.",
+          "mentor": "Gulmira Xalimova",
+          "content": [
+            "Arabic alphabet",
+            "Exam preparation",
+            "Vocabulary building",
+            "Speaking and writing practice"
+          ]
+        },
+        "russian": {
+          "title": "Russian Language",
+          "description": "Reading, writing, and speaking skills.",
+          "mentor": "Nigina Melikuziyeva",
+          "content": [
+            "Russian grammar",
+            "Sentence building practice",
+            "Reading and translation",
+            "Oral communication development"
+          ]
+        },
+        "itbasics": {
+          "title": "IT Basics",
+          "description": "Introduction to computer literacy and technologies.",
+          "mentor": "Zilola Absalamova",
+          "content": [
+            "Computer basics",
+            "Office software",
+            "Internet and security",
+            "Intro to programming concepts"
+          ]
+        },
+        "frontend": {
+          "title": "Front-end",
+          "description": "Building websites with HTML, CSS, JavaScript, and React.",
+          "mentor": "Zilola Absalamova",
+          "content": [
+            "HTML & CSS",
+            "JavaScript basics",
+            "Working with React",
+            "Practical projects"
+          ]
+        },
+        "backend": {
+          "title": "Back-end",
+          "description": "Server-side programming: Node.js, Python, databases.",
+          "mentor": "To be announced soon",
+          "content": [
+            "Node.js basics",
+            "Python and Django",
+            "Databases",
+            "Creating APIs"
+          ]
+        },
+        "mentalarithmetic": {
+          "title": "Mental Arithmetic",
+          "description": "A method to develop both hemispheres of a child’s brain.",
+          "mentor": "Shoira",
+          "content": [
+            "Basic calculation methods",
+            "Brain exercises",
+            "Quick thinking techniques",
+            "Practical lessons"
+          ]
+        }
+      },
+      "labels": {
+        "enroll": "🚀 Enroll",
+        "back": "⬅ Back",
+        "mentor": "👨‍🏫 Mentor",
+        "price": "💰 price",
+        "duration": "⏳ Duration",
+        "courseContent": "📚 Course content",
+            "courseNotFound": "Course not found"
+      }
+    
     
 
 }

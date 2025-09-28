@@ -63,7 +63,7 @@ const courses = [
     mentorImage: "./mentors/gulmira.JPG",
     content: [
       "Arab alifbosi",
-      "Qur’on o‘qish asoslari",
+      "Sertifikat uchun tayyorgarlik",
       "So‘z boyligini kengaytirish",
       "Suhbat va yozish mashqlari"
     ],

@@ -284,7 +284,120 @@
     "hours": "Soat",
     "minutes": "Daqiqa",
     "seconds": "Soniya",
-    "submitNow": "Bog‘lanish uchun yuborish"
+    "submitNow": "Bog‘lanish uchun yuborish",
+    
+      "courses2": {
+        "math": {
+          "title": "Matematika",
+          "description": "Algebra, geometriya va amaliy masalalar bo‘yicha darslar.",
+          "mentor": "Dilshod Sadriddinov",
+          "content": [
+            "Asosiy matematik tushunchalar",
+            "Algebraik ifodalar",
+            "Geometriya asoslari",
+            "Mashg‘ulotlar va testlar"
+          ]
+        },
+        "english": {
+          "title": "Ingliz Tili",
+          "description": "Grammatika, gapirish va tinglash bo‘yicha darslar.",
+          "mentor": "Maftuna Nazarova",
+          "content": [
+            "Grammatika asoslari",
+            "Gapirish amaliyoti",
+            "Tinglash va talaffuz",
+            "Imtihonga tayyorgarlik"
+          ]
+        },
+        "englishkids": {
+          "title": "Bolalar uchun Ingliz Tili",
+          "description": "Bolalar uchun qiziqarli ingliz tili darslari.",
+          "mentor": "Nigina Jalilova",
+          "content": [
+            "Alifbo va lug‘at boyligi",
+            "O‘yinlar orqali o‘rganish",
+            "Qo‘shiqlar va hikoyalar",
+            "Qiziqarli mashqlar"
+          ]
+        },
+        "arabic": {
+          "title": "Arab Tili",
+          "description": "Qur’on asoslari va zamonaviy arab tili.",
+          "mentor": "Gulmira Xalimova",
+          "content": [
+            "Arab alifbosi",
+            "Imtihonga tayyorgarlik",
+            "Lug‘at boyligini oshirish",
+            "Gapirish va yozish mashqlari"
+          ]
+        },
+        "russian": {
+          "title": "Rus Tili",
+          "description": "O‘qish, yozish va gapirish ko‘nikmalari.",
+          "mentor": "Nigina Melikuziyeva",
+          "content": [
+            "Rus tili grammatikasi",
+            "Gap tuzish amaliyoti",
+            "O‘qish va tarjima",
+            "Og‘zaki muloqotni rivojlantirish"
+          ]
+        },
+        "itbasics": {
+          "title": "IT Asoslari",
+          "description": "Kompyuter savodxonligi va texnologiyalarga kirish.",
+          "mentor": "Zilola Absalamova",
+          "content": [
+            "Kompyuter asoslari",
+            "Office dasturlari",
+            "Internet va xavfsizlik",
+            "Dasturlash tushunchalariga kirish"
+          ]
+        },
+        "frontend": {
+          "title": "Front-end",
+          "description": "HTML, CSS, JavaScript va React orqali saytlar yaratish.",
+          "mentor": "Zilola Absalamova",
+          "content": [
+            "HTML & CSS",
+            "JavaScript asoslari",
+            "React bilan ishlash",
+            "Amaliy loyihalar"
+          ]
+        },
+        "backend": {
+          "title": "Back-end",
+          "description": "Server tomon dasturlash: Node.js, Python, ma’lumotlar bazalari.",
+          "mentor": "Tez orada e’lon qilinadi",
+          "content": [
+            "Node.js asoslari",
+            "Python va Django",
+            "Ma’lumotlar bazalari",
+            "API yaratish"
+          ]
+        },
+        "mentalarithmetic": {
+          "title": "Mental Arifmetika",
+          "description": "Bola miyasining ikkala yarimsharasini rivojlantirish usuli.",
+          "mentor": "Shoira",
+          "content": [
+            "Hisoblashning asosiy usullari",
+            "Miya mashqlari",
+            "Tez fikrlash texnikalari",
+            "Amaliy mashg‘ulotlar"
+          ]
+        }
+      },
+      "labels": {
+        "enroll": "🚀 Ro‘yxatdan o‘tish",
+        "back": "⬅ Ortga qaytish",
+        "mentor": "👨‍🏫 Mentor",
+        "price": "💰 Narx",
+        "duration": "⏳ Davomiylik",
+        "courseContent": "📚 Kurs mazmuni",
+          "courseNotFound": "Kurs topilmadi"
+      }
+    
+
     
  
     
