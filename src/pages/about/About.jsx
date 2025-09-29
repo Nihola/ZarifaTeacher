@@ -1,12 +1,14 @@
+ 
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
- 
+
 export default function About() {
   const { t } = useTranslation();
   const [stats, setStats] = useState({ students: 0, mentors: 0, courses: 0, successRate: 0 });
   const [isPaused, setIsPaused] = useState(false);
 
+  // Animated stats effect
   useEffect(() => {
     let interval;
     const increment = () => {
@@ -22,7 +24,7 @@ export default function About() {
           setTimeout(() => {
             setStats({ students: 0, mentors: 0, courses: 0, successRate: 0 });
             setIsPaused(false);
-          }, 3000); // 1-second pause before reset
+          }, 3000);
           return prev;
         }
         if (!isPaused) {
@@ -36,7 +38,7 @@ export default function About() {
         return prev;
       });
     };
-    interval = setInterval(increment, 50); // Moderate increment speed
+    interval = setInterval(increment, 50);
     return () => clearInterval(interval);
   }, [isPaused]);
 
@@ -66,8 +68,9 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 max-sm:pt-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-32">
+    <div className="min-h-screen bg-white text-gray-900 pt-12 sm:pt-16 lg:pt-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
+        
         {/* Header Section */}
         <header className="text-center space-y-6 sm:space-y-8">
           <motion.div
@@ -76,22 +79,23 @@ export default function About() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="inline-flex items-center space-x-2 bg-indigo-100 rounded-full px-4 py-2 text-sm sm:text-base"
           >
-            
             <span>{t('about.tagline')}</span>
           </motion.div>
+
           <motion.h1
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
+            className="text-[clamp(1.8rem,4vw,3.5rem)] font-bold leading-tight"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
             {t('about.title')}
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 max-w-[800px] m-auto justify-center">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 max-w-[800px] mx-auto">
               {t('about.subtitle')}
             </span>
           </motion.h1>
+
           <motion.p
-            className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
@@ -101,7 +105,7 @@ export default function About() {
         </header>
 
         {/* Features Section */}
-        <section className="py-16">
+        <section className="py-12 sm:py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {features.map((feature, index) => (
               <motion.div
@@ -117,7 +121,7 @@ export default function About() {
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-500/20 via-purple-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative w-16 h-16 mx-auto mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="relative w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <img
                     src={feature.icon}
                     alt={feature.title}
@@ -135,7 +139,7 @@ export default function About() {
         </section>
 
         {/* Stats Section */}
-        <section className="py-16">
+        <section className="py-12 sm:py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {statsData.map((stat, index) => (
               <motion.div
@@ -151,8 +155,7 @@ export default function About() {
                 }}
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-500/20 via-purple-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="flex items-center justify-center space-x-2 mb-2">
-                  
+                <div className="flex items-center justify-center mb-2">
                   <h3 className="text-3xl sm:text-4xl font-bold text-indigo-600 group-hover:text-purple-600 transition-colors duration-300">
                     {stat.value}{stat.suffix}
                   </h3>
@@ -166,3 +169,4 @@ export default function About() {
     </div>
   );
 }
+ 

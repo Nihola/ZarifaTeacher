@@ -57,14 +57,14 @@ const Footer = () => {
                 </motion.svg>
               </Link>
             </motion.div>
-            <p className="text-sm text-white/80 leading-tight">
+            <p className="text-lg text-white/80 leading-tight">
               {t('footer.text')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="ml-8 hidden md:block">
-            <h4 className="font-semibold text-lg mb-4 text-yellow-300">Pages</h4>
+            <h4 className="font-semibold text-lg mb-4 text-yellow-300"> {t('footer.pages')}</h4>
             <ul className="space-y-3">
               <motion.li whileHover={{ x: 5, color: '#FFD700' }} transition={{ duration: 0.3 }}>
                 <Link to="/" className="text-white/80 hover:text-yellow-300 transition duration-300">{t('footer.home')}</Link>
@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Right Section: Contact Info and Social Links */}
         <div className="flex flex-row w-full md:w-auto">
           <div className="ml-8 hidden md:block">
-            <h4 className="font-semibold text-lg mb-4 text-yellow-300">Contact Us</h4>
+            <h4 className="font-semibold text-lg mb-4 text-yellow-300"> {t('footer.follow')}</h4>
             <ul className="space-y-3">
               <motion.li whileHover={{ x: 5, color: '#FFFFFF' }} transition={{ duration: 0.3 }} className="flex items-center gap-2 text-white/80">
                 <span className="bg-blue-600/50 p-2 rounded-full"><FiPhone className="text-lg" /></span> <span>+998 94 247 71 75</span>
@@ -107,7 +107,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="ml-8 hidden md:block">
-            <h4 className="font-semibold text-lg mb-4 text-yellow-300">Follow Us</h4>
+            <h4 className="font-semibold text-lg mb-4 text-yellow-300">{t('footer.followus')}</h4>
             <div className="flex gap-4">
               <motion.a
                 href="https://t.me/zarifa_education"

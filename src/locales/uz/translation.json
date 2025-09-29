@@ -176,7 +176,8 @@
     "hours": "Dushanba–Shanba: 9:00–18:00",
     "follow": "Biz bilan bog‘laning",
     "rights": "Barcha huquqlar himoyalangan.",
-    "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz."
+    "text": "Har bir dars orqali ongni rivojlantiramiz va kelajakni shakllantiramiz.",
+    "followus":"Bizni kuzating"
   },
   "hero": {
     "span": "100+ mamnun talabalar",
@@ -202,7 +203,7 @@
   },
   "math": {
     "title": "Matematika",
-    "description": "Mantiqiy fikrlash va dasturlash asoslari",
+    "description": "Matematika fanidan milliy sertifikat uchun tayyorgarlik va DTM imtixon tayyorgarlik",
     "mentor": "Dilshod Sadriddinov"
   },
   "english": {
