@@ -208,17 +208,17 @@
   },
   "english": {
     "title": "Ingliz tili",
-    "description": "Ingliz tilini o‘rganish asoslari",
+    "description": "CEFR,IELTS yoki grammatik imtixonlarga birgalikda tayyorgarlik",
     "mentor": "Maftuna Nazarova"
   },
   "russian": {
     "title": "Rus tili",
-    "description": "Rus tili kursi",
+    "description": "Rus tili kursi va CEFR tayyorgarlik",
     "mentor": "Nigina Melikuziyeva"
   },
   "arabic": {
     "title": "Arab tili",
-    "description": "Arab tilida o‘qish kursi",
+    "description": "Arab tilida o‘qish kursi va CEFR uchun tayyorgarlik",
     "mentor": "Gulmira Xalimova"
   },
   "itbasics": {

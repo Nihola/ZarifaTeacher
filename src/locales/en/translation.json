@@ -163,18 +163,18 @@
     },
     "english": {
       "title": "English",
-      "description": "Basics of learning English",
+      "description": "Preparation for CEFR, IELTS, or grammar exams",
       "mentor": "Maftuna Nazarova"
       
     },
     "russian": {
       "title": "Russian",
-      "description": "Russian language course",
+      "description": "Russian language course and CEFR preperation",
       "mentor": "Nigina Melikuziyeva"
     },
     "arabic": {
       "title": "Arabic",
-      "description": "Arabic language reading course",
+      "description": "Arabic reading course and preparation for CEFR",
       "mentor": "Gulmira Xalimova"
     },
     "itbasics": {
