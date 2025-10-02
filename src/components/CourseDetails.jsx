@@ -49,7 +49,7 @@ function CourseDetails() {
     };
 
     return (
-        <div className="bg-gradient-to-b from-indigo-50 to-blue-100 py-6 px-4">
+        <div className="bg-gradient-to-b from-indigo-50 to-blue-100  px-4 mt-20">
             <div className="max-w-6xl mx-auto">
                 {/* Banner Section */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white">
@@ -62,7 +62,7 @@ function CourseDetails() {
                         />
                     )}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
-                        <div className="p-6 sm:p-10 text-white max-w-3xl">
+                        <div className="p-2 sm:p-10 text-white max-w-3xl">
                             <h1 className="text-2xl sm:text-4xl font-extrabold leading-tight drop-shadow">
                                 {course.title}
                             </h1>
