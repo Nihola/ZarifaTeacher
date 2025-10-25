@@ -7,14 +7,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timer from './components/Timer';
 import SeoHeader from './components/SEOheader';
-import { HelmetProvider } from 'react-head';
+import { HeadProvider } from "react-head";
+
  
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <HelmetProvider>
+    <HeadProvider>
       <Header/>
       <SeoHeader
                     title="ZarifaTeacher - O‘quv Markazi Toshkentda"
@@ -30,7 +31,7 @@ export default function App() {
       <Footer/>     
        
       <ScrollToTopButton />     
-    </HelmetProvider> 
+    </HeadProvider> 
      
   )
 }
