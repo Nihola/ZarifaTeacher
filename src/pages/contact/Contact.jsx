@@ -3,7 +3,7 @@ import ContactSection from './ContactSection';
 import { useTranslation } from 'react-i18next';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import SeoHeader from '../../components/SEOheader';
 const Contact = () => {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({ name: '', phone: '' });
@@ -47,6 +47,11 @@ const Contact = () => {
 
   return (
     <section className="bg-[#F4F6FC] pt-20">
+            <SeoHeader
+              title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+              description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+              keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+            />
       <div className="container max-w-[1200px] mx-auto w-full px-4 py-10 flex justify-center">
         <form
           onSubmit={handleSubmit}

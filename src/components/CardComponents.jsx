@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import SeoHeader from './SEOheader';
 
 export default function CardComponents() {
     const { t } = useTranslation();
@@ -18,6 +19,11 @@ export default function CardComponents() {
 
     return (
         <div className="bg-gray-100 py-8 px-4">
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl font-bold text-gray-800 text-center mb-10">
                     {t("coursesHeading")}

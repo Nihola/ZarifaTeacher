@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FaRegClock } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import courses from "../courses/CourseData"; // use default export
-
+import SeoHeader from "../../components/SEOheader";
 function Courses() {
   const { t } = useTranslation();
   // For now, using our static data instead of translations:
@@ -11,6 +11,11 @@ function Courses() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-6 py-30 max-sm:pt-40">
+            <SeoHeader
+              title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+              description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+              keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+            />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {courseList.map((courseData) => (
           <div

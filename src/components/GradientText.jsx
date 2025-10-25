@@ -1,3 +1,4 @@
+import SeoHeader from "./SEOheader";
 export default function GradientText({
     children,
     className = "",
@@ -14,6 +15,11 @@ export default function GradientText({
         <div
             className={`relative mx-auto flex max-w-fit flex-row items-center justify-center rounded-[1.25rem] font-medium backdrop-blur transition-shadow duration-500 overflow-hidden cursor-pointer ${className}`}
         >
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             {showBorder && (
                 <div
                     className="absolute inset-0 bg-cover z-0 pointer-events-none animate-gradient"

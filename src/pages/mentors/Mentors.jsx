@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
-
+import SeoHeader from "../../components/SEOheader";
 export default function TeamSection() {
   const { t } = useTranslation();
+
 
   const teachers = [
     {
@@ -43,6 +44,11 @@ export default function TeamSection() {
 
   return (
     <section className="py-30 bg-gray-50 max-sm:pt-40" id="team">
+            <SeoHeader
+              title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+              description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+              keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+            />
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Sarlavha */}
         <h2 className="text-3xl font-bold mb-10">{t("team.title")}</h2>

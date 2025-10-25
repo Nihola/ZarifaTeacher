@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import courses from "../pages/courses/CourseData";
-
+import SeoHeader from "./SEOheader";
 function CourseDetails() {
     const { t } = useTranslation();
     const { id } = useParams();
@@ -50,6 +50,11 @@ function CourseDetails() {
 
     return (
         <div className="bg-gradient-to-b from-indigo-50 to-blue-100  px-4 mt-20">
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             <div className="max-w-6xl mx-auto">
                 {/* Banner Section */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white">

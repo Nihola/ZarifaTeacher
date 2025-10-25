@@ -1,12 +1,17 @@
 import React from 'react';
 import { FaTelegram, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
-
+import SeoHeader from '../../components/SEOheader';
 const ContactSection = () => {
   const { t } = useTranslation();
 
   return (
     <section className="w-full mx-auto max-w-[1200px] py-10 px-4 bg-[#F4F6FC] flex flex-col lg:flex-row gap-8 ">
+            <SeoHeader
+              title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+              description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+              keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+            />
       
       {/* Aloqa ma'lumotlari */}
       <div className="w-full min-h-[350px] lg:w-1/2 bg-white shadow-xl rounded-xl p-6">

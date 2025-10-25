@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import SeoHeader from "./SEOheader";
 
 function Timer() {
     const { t, i18n } = useTranslation();
@@ -54,6 +55,11 @@ function Timer() {
 
     return (
         <div className="fixed top-16 left-0 w-full bg-white text-gray-800 py-4 px-8 sm:px-6 shadow-lg z-50">
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             <div className="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2">
                 {/* Left side: text + countdown */}
                 <div className="flex items-center space-x-2 sm:space-x-4">

@@ -6,12 +6,13 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timer from './components/Timer';
+import { HelmetProvider } from "react-helmet-async";
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div>
+    <HelmetProvider>
       <Header/>
       <Timer/>
       <main className='pt-15 md:pt-20 sm:pt-60 max-sm:80'>
@@ -22,6 +23,6 @@ export default function App() {
       <Footer/>     
        
       <ScrollToTopButton />      
-    </div>
+    </HelmetProvider>
   )
 }

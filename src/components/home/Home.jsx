@@ -6,12 +6,18 @@ import { Star, ArrowRight, CheckCircle } from 'lucide-react';
 import CardComponents from '../CardComponents';
 import BonusCard from '../BonusCard';
 import Certificates from '../Certificates';
+import SeoHeader from '../SEOheader';
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      <SeoHeader
+        title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+        description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+        keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+      />
       <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-blue-800 text-white overflow-hidden max-sm:pt-10">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-purple-600/90"></div>

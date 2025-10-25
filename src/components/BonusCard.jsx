@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import SeoHeader from "./SEOheader";
 
 export default function BonusCard() {
     const { t } = useTranslation();
@@ -21,7 +22,14 @@ return () => {
 
     }, [isOpen]);
 
-    return (<div className="max-w-7xl mx-auto p-4 xl:p-6 max-sm:pt-10">
+    return (
+        
+    <div className="max-w-7xl mx-auto p-4 xl:p-6 max-sm:pt-10">
+              <SeoHeader
+                title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+              />
         {/* Card Section */} <section className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row items-center hover:shadow-2xl hover:-translate-y-1 transition-all duration-500">
             {/* Image Section */} <div className="relative w-full md:w-1/2 group"> <img
                 src="./girl.jpg"

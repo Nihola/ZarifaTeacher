@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-
+import SeoHeader from "./SEOheader";
 const TrueFocus = ({
     sentence = "True Focus",
     manualMode = false,
@@ -60,6 +60,11 @@ const TrueFocus = ({
             className="relative flex gap-4 justify-center items-center flex-wrap"
             ref={containerRef}
         >
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             {words.map((word, index) => {
                 const isActive = index === currentIndex;
                 return (

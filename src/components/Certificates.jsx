@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-
+import SeoHeader from './SEOheader';
 function Certificates() {
     const { t } = useTranslation();
 
@@ -35,6 +35,11 @@ function Certificates() {
 
     return (
         <div className=" bg-gradient-to-br from-gray-50 to-gray-200 flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 max-sm:pt-10">
+                  <SeoHeader
+                    title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+                    description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+                    keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+                  />
             <div className="w-full max-w-7xl">
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8 text-gray-900 tracking-tight">
                     {t("certificates.title")}

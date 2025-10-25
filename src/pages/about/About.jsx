@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-
+import SeoHeader from '../../components/SEOheader';
 export default function About() {
   const { t } = useTranslation();
   const [stats, setStats] = useState({ students: 0, mentors: 0, courses: 0, successRate: 0 });
@@ -69,6 +69,11 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900 pt-12 sm:pt-16 lg:pt-20">
+            <SeoHeader
+              title="ZarifaTeacher - O‘quv Markazi Toshkentda"
+              description="IELTS va ingliz tili,IT,arab tili, rus tili Toshkentda. ZarifaTeacher — tajribali ustozlar bilan yuqori natijalarga erishing!"
+              keywords="o‘quv markaz, IELTS kursi, ingliz tili, ZarifaTeacher, Toshkent, arab tili CEFR, rus tili , CEFR,IT kursi, Frontend,Python kursi"
+            />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         
         {/* Header Section */}
