@@ -6,7 +6,7 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timer from './components/Timer';
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider } from "react-head";
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
