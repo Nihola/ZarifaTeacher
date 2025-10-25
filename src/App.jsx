@@ -6,8 +6,9 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timer from './components/Timer';
-import { HelmetProvider } from "react-head";
 import SeoHeader from './components/SEOheader';
+import { HelmetProvider } from 'react-head';
+ 
 export default function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -28,7 +29,8 @@ export default function App() {
 
       <Footer/>     
        
-      <ScrollToTopButton />      
-    </HelmetProvider>
+      <ScrollToTopButton />     
+    </HelmetProvider> 
+     
   )
 }
