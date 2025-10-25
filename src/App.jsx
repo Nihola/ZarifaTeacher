@@ -15,7 +15,7 @@ export default function App() {
     <HelmetProvider>
       <Header/>
       <Timer/>
-      <main className='pt-15 md:pt-20 sm:pt-60 max-sm:80'>
+      <main className='pt-15 md:pt-20 sm:pt-60 max-sm:84'>
         <Outlet/>
       </main> 
  
