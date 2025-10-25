@@ -4,8 +4,7 @@
             "source": "/(.*)",
             "destination": "/"
         },
-        {
-            "routes": [
+         
                 {
                     "src": "/sitemap.xml",
                     "dest": "/sitemap.xml"
@@ -19,7 +18,5 @@
                     "dest": "/index.html"
                 }
             ]
-        }
-        
-    ]
+    
 }
