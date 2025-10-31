@@ -208,18 +208,54 @@
   },
   "english": {
     "title": "Ingliz tili",
-    "description": "CEFR,IELTS yoki grammatik imtixonlarga birgalikda tayyorgarlik",
-    "mentor": "Maftuna Nazarova"
+    "description": "CEFR, IELTS yoki grammatik imtixonlarga birgalikda tayyorgarlik",
+    "mentor": "Maftuna Nazarova",
+    "experience": "3+ yillik tajriba, 200+ o‘quvchi bilan ishlagan",
+    "education": "Oʻzbekiston Jahon tillari Universiteti, 4-kurs talabasi",
+    "skills": [
+      "CEFR tayyorlov",
+      "IELTS strategiyalari",
+      "Grammatika chuqur tahlili"
+    ],
+    "features": [
+      "Ma’suliyatli",
+      "Talabchan",
+      "Individual yondashuv"
+    ]
   },
   "russian": {
     "title": "Rus tili",
     "description": "Rus tili kursi va CEFR tayyorgarlik",
-    "mentor": "Nigina Melikuziyeva"
+    "mentor": "Nigina Melikuziyeva",
+    "experience": "3+ yillik tajriba, 500+ o‘quvchi bilan ishlagan",
+    "education": "Oʻzbekiston Jahon tillari Universiteti talabasi",
+    "skills": [
+      "CEFR tayyorlov",
+      "Suhbat quralishga tayyorlov",
+      "Grammatika testlari yecha olishlik"
+    ],
+    "features": [
+      "Ma’suliyatli",
+      "Talabchan",
+      "6 ta til bilish koʻnikmalari:rus,o'zbek,ingliz,tojik,turk,ispan "     
+       
+    ]
   },
   "arabic": {
     "title": "Arab tili",
     "description": "Arab tilida o‘qish kursi va CEFR uchun tayyorgarlik",
-    "mentor": "Gulmira Xalimova"
+    "mentor": "Gulmira Xalimova",
+    "experience": "5 yillik tajriba, 700+ o‘quvchi bilan ishlagan",
+    "education": "Xalqaro Islom akademiyasi bitiruvchisi ",
+    "skills": [
+      "CEFR tayyorlov",       
+      "Grammatika imtixonlariga tayyorlov"
+    ],
+    "features": [
+      "Ma’suliyatli",
+      "Talabchan",
+      "Shijoatli"
+    ]
   },
   "itbasics": {
     "title": "IT asoslari",

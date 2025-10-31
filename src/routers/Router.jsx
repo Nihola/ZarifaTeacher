@@ -6,6 +6,7 @@ import Home from './../components/home/Home';
 import Mentors from './../pages/mentors/Mentors';
 import Courses from './../pages/courses/Courses';
 import CourseDetails from "../components/CourseDetails";
+import MentorDetailPage from "../pages/mentors/MentorsDetails";
 export const Router=createBrowserRouter([
     {
         path:"/",
@@ -34,7 +35,12 @@ export const Router=createBrowserRouter([
             {
                 path:"/courses/:id",
                 element:<CourseDetails/>
-            }            
+            }            ,
+            {
+                path: "/mentors/:id",
+                element: <MentorDetailPage />
+            }   
+            
 
         ]
     }

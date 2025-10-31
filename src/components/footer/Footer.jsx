@@ -9,7 +9,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-gradient-to-br from-blue-900 via-indigo-700 to-cyan-800 text-white py-12 px-4 relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-blue-900 via-indigo-700 to-cyan-800 text-white py-12 px-4 relative overflow-hidden mt-0">
       <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between gap-8">
         {/* Left Section: Logo & Mission and Quick Links */}
         <div className="flex flex-row gap-3 w-full md:w-auto">
