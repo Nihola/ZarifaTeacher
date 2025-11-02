@@ -199,7 +199,18 @@
   "englishkids": {
     "title": "Bolalar uchun ingliz tili",
     "description": "Ingliz tilida boshlang'ich so'zlashuv, o'qish , matnlar yozish va eshitish qobiliyatini ruvojlantirish",
-    "mentor": "Nigina Jalilova"
+    "mentor": "Nigina Jalilova",
+    "experience": "2 yillik tajriba, 100+ o‘quvchi bilan ishlagan",
+    "education": "Oʻzbekiston Milliy Pedagogika universitetini tamomlagan ",
+    "skills": [
+      "Ingliz tilida suhbar qura olishlik ko'nikamasi",
+      "Grammatika imtixonlariga tayyorlov"
+    ],
+    "features": [
+      "Ma'suliyatli talabchan rivojlanuvchi xodim👩‍💻",
+      " Bolalar bilan  tez chiqishadi",
+      "Oʻz sohasida yaxshi ishlaydigan"
+    ]
   },
   "math": {
     "title": "Matematika",
