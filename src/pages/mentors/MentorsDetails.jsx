@@ -6,7 +6,7 @@ import SeoHeader from "../../components/SEOheader";
 
 const mentorImages = {
     math: "/mentors/dilshod.JPG",
-    mentalarithmetic: "/mentors/shoira.JPG",
+    mentalarithmetic: "/mentors/dilshod.JPG",
     frontend: "/mentors/zilola.JPG",
     russian: "/mentors/nigina.JPG",
     arabic: "/mentors/gulmira.JPG",
@@ -64,16 +64,16 @@ export default function MentorDetailPage() {
 
                             <div className="mt-6 space-y-6 text-left">
                                 <div>
-                                    <h4 className="text-xl font-semibold text-indigo-600">🎓 Ta’lim:</h4>
+                                    <h4 className="text-xl font-semibold text-indigo-600">{t(`edu`)}</h4>
                                     <p className="text-gray-700">{education}</p>
                                 </div>
                                 <div>
-                                    <h4 className="text-xl font-semibold text-indigo-600">💼 Tajriba:</h4>
+                                    <h4 className="text-xl font-semibold text-indigo-600">{t(`exp`)}</h4>
                                     <p className="text-gray-700">{experience}</p>
                                 </div>
                                 {Array.isArray(skills) && (
                                     <div>
-                                        <h4 className="text-xl font-semibold text-indigo-600">🛠️ Ko‘nikmalar:</h4>
+                                        <h4 className="text-xl font-semibold text-indigo-600">{t(`skills`)}</h4>
                                         <ul className="list-disc list-inside text-gray-700 space-y-1">
                                             {skills.map((item, index) => (
                                                 <li key={index}>{item}</li>
@@ -83,7 +83,7 @@ export default function MentorDetailPage() {
                                 )}
                                 {Array.isArray(features) && (
                                     <div>
-                                        <h4 className="text-xl font-semibold text-indigo-600">🌟 Ustunlik jihatlari:</h4>
+                                        <h4 className="text-xl font-semibold text-indigo-600">{t(`strengths`)}</h4>
                                         <ul className="list-disc list-inside text-gray-700 space-y-1">
                                             {features.map((item, index) => (
                                                 <li key={index}>{item}</li>
@@ -104,7 +104,7 @@ export default function MentorDetailPage() {
                 >
                     <Link to="/contact">
                         <button className="px-6 py-3 bg-indigo-600 text-white text-lg rounded-full shadow hover:bg-indigo-700 transition duration-300">
-                            Bog‘lanish
+                            {t(`tel`)}{}
                         </button>
                     </Link>
                 </motion.div>

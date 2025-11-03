@@ -6,7 +6,7 @@
   "Aloqa": "Aloqa",
 
   "contact": {
-    "title": "Biz bilan aloqaga chiqmohchimisiz?",
+    "title": "Biz bilan aloqaga chiqmoqchimisiz?",
     "subtitle": "Formani to'ldiring va biz siz bilan bog'lanamiz",
     "name": "Ismingiz",
     "name_placeholder": "Ismingizni kiriting",
@@ -187,6 +187,12 @@
     "apply": "Bepul maslahat oling",
     "number": "Muvaffaqiyatli talabalar"
   },
+  "btn": "Ko'proq ko'rish",
+  "edu" : "🎓 Ta'lim",
+"exp": "💼 Tajriba",
+"skills": "🛠️ Ko‘nikmalar",
+"strengths": "🌟 Ustunlik jihatlari",
+  "tel": " Bog'lanish",
   
 "coursesHeading": "Kurslarimiz",
 "courseMentorLabel": "Kurs mentori",
@@ -194,7 +200,19 @@
   "frontend": {
     "title": "Frontend",
     "description": "Veb dasturlashdagi ilk qadamlar",
-    "mentor": "Zilolaxon Absalamova"
+    "mentor": "Zilolaxon Absalamova",
+    "experience": "2+ yillik ish tajriba, 100+ o‘quvchi bilan ishlagan",
+    "education": "Oʻzbekiston Milliy universitet talabasi",
+    "skills": [
+      "HTML,Css,Sass,Javascript,React.Js, Next.Js, Tailwind.css , Python ,Sql",
+      "Middle Frontend Developer"
+      
+    ],
+    "features": [
+      "Mas'ulyatli",
+      "Talabchan",
+      "Individual yondashuv"
+    ]
   },
   "englishkids": {
     "title": "Bolalar uchun ingliz tili",
@@ -215,7 +233,19 @@
   "math": {
     "title": "Matematika",
     "description": "Matematika fanidan milliy sertifikat uchun tayyorgarlik va DTM imtixon tayyorgarlik",
-    "mentor": "Dilshod Sadriddinov"
+    "mentor": "Dilshod Sadriddinov",
+        "experience": "6 yillik ish tajriba, 1200+ o‘quvchi bilan ishlagan",
+        "education": "Oʻzbekiston Milliy universitet bitiruvchisi",
+        "skills": [
+          "Abituriyentlar tayyorlovi/ Prezident maktabi tayyarlovi",
+          "Milliy sertifikat/ SAT/GRE",
+          "Grammatika chuqur tahlili"
+        ],
+        "features": [
+          "Mas'ulyatli",
+          "Talabchan",
+          "Individual yondashuv"
+        ]
   },
   "english": {
     "title": "Ingliz tili",
@@ -271,12 +301,35 @@
   "itbasics": {
     "title": "IT asoslari",
     "description": "Kompyuter savodxonligi ko‘nikmalari",
-    "mentor": "Zilolaxon Absalamova"
+    "mentor": "Zilolaxon Absalamova",
+    "experience": "2 yillik tajriba, 100+ o‘quvchi bilan ishlagan",
+    "education": "Toshkent davlat texnika unversiteti talabasi ",
+    "skills": [
+      "Kompyuter ishlatish texnologoyalarj",
+      "Word,Exel,PowerPoint ko'nikmalari"
+    ],
+    "features": [
+      "Ma’suliyatli",
+      "Talabchan",
+      "Shijoatli"
+    ]
   },
   "mentalarithmetic": {
     "title": "Mental arifmetika",
-    "description": "Tez hisoblash usullari",
-    "mentor": "Shoira Aliyeva"
+    "description": "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli",
+    "mentor": "Dilshod Sadriddinov",
+    "experience": "3 yillik ish tajriba, 150+ o‘quvchi bilan ishlagan",
+    "education": "Oʻzbekiston Milliy universitet bitiruvchisi",
+    "skills": [
+      "Matematika va Mental arifmetika treneri",
+      "Tezkor va aniq hisoblash",
+      "Tanqidiy va mantiqiy fikrlash borasida shug'ullanish"
+    ],
+    "features": [
+      "Mas'ulyatli",
+      "Talabchan",
+      "Individual yondashuv"
+    ]
   }
 },
 "bonus": {

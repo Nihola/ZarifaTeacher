@@ -143,51 +143,149 @@
     "apply": "Get Free Consultation",
     "number": "Successful Students"
   },
+  "tel":"Contact",
   "coursesHeading": "Our Courses",
   "courseMentorLabel": "Course Mentor",
-  "courses": {
-    "frontend": {
-      "title": "Frontend",
-      "description": "First steps in web development",
-      "mentor": "Zilolaxon Absalamova"
-    },
-    "englishkids": {
-      "title": "English kids",
-      "description": "Basic English conversation, reading, writing texts, and developing listening skills",
-      "mentor": "Nigina Jalilova"
-    },
-    "math": {
-      "title": "Mathematics",
-      "description": "Preparation for the national certificate in Mathematics and for the entrance exams of the State Testing Center (DTM)",
-      "mentor": "Dilshod Sadriddinov"
-    },
-    "english": {
-      "title": "English",
-      "description": "Preparation for CEFR, IELTS, or grammar exams",
-      "mentor": "Maftuna Nazarova"
-      
-    },
-    "russian": {
-      "title": "Russian",
-      "description": "Russian language course and CEFR preperation",
-      "mentor": "Nigina Melikuziyeva"
-    },
-    "arabic": {
-      "title": "Arabic",
-      "description": "Arabic reading course and preparation for CEFR",
-      "mentor": "Gulmira Xalimova"
-    },
-    "itbasics": {
-      "title": "IT Basics",
-      "description": "Computer literacy skills",
-      "mentor": "Zilolaxon Absalamova"
-    },
-    "mentalarithmetic": {
-      "title": "Mental Arithmetic",
-      "description": "Techniques for quick calculations",
-      "mentor": "Shoira Aliyeva"
-    }
+  "btn": "See more",
+  "edu": "🎓 Education",
+  "exp": "💼 Experience",
+  "skills": "🛠️ Skills",
+  "strengths": "🌟 Strengths",
+"courses": {
+ 
+  "frontend": {
+    "title": "Frontend",
+    "description": "First steps in web development",
+    "mentor": "Zilolaxon Absalamova",
+    "experience": "2+ years of experience, worked with 100+ students",
+    "education": "Student at National University of Uzbekistan",
+    "skills": [
+      "HTML, CSS, Sass, JavaScript, React.js, Next.js, Tailwind.css, Python, SQL",
+      "Middle Frontend Developer"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Individual approach"
+    ]
   },
+  "englishkids": {
+    "title": "English for Kids",
+    "description": "Developing basic speaking, reading, writing, and listening skills in English",
+    "mentor": "Nigina Jalilova",
+    "experience": "2 years of experience, worked with 100+ students",
+    "education": "Graduate of Uzbekistan National Pedagogical University",
+    "skills": [
+      "Conversational English skills",
+      "Preparation for grammar exams"
+    ],
+    "features": [
+      "Responsible, demanding, and growth-oriented educator 👩‍💻",
+      "Quickly connects with children",
+      "Highly skilled in her field"
+    ]
+  },
+  "math": {
+    "title": "Mathematics",
+    "description": "Preparation for national certification and entrance exams",
+    "mentor": "Dilshod Sadriddinov",
+    "experience": "6 years of experience, worked with 1200+ students",
+    "education": "Graduate of National University of Uzbekistan",
+    "skills": [
+      "Preparation for applicants / Presidential school",
+      "National certificate / SAT / GRE",
+      "In-depth grammar analysis"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Individual approach"
+    ]
+  },
+  "english": {
+    "title": "English",
+    "description": "Joint preparation for CEFR, IELTS, or grammar exams",
+    "mentor": "Maftuna Nazarova",
+    "experience": "3+ years of experience, worked with 200+ students",
+    "education": "4th-year student at Uzbekistan State World Languages University",
+    "skills": [
+      "CEFR preparation",
+      "IELTS strategies",
+      "In-depth grammar analysis"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Individual approach"
+    ]
+  },
+  "russian": {
+    "title": "Russian",
+    "description": "Russian language course and CEFR preparation",
+    "mentor": "Nigina Melikuziyeva",
+    "experience": "3+ years of experience, worked with 500+ students",
+    "education": "Student at Uzbekistan State World Languages University",
+    "skills": [
+      "CEFR preparation",
+      "Conversation training",
+      "Grammar test solving skills"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Fluent in 6 languages: Russian, Uzbek, English, Tajik, Turkish, Spanish"
+    ]
+  },
+  "arabic": {
+    "title": "Arabic",
+    "description": "Reading course in Arabic and CEFR preparation",
+    "mentor": "Gulmira Xalimova",
+    "experience": "5 years of experience, worked with 700+ students",
+    "education": "Graduate of International Islamic Academy",
+    "skills": [
+      "CEFR preparation",
+      "Preparation for grammar exams"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Energetic"
+    ]
+  },
+  "itbasics": {
+    "title": "IT Basics",
+    "description": "Computer literacy skills",
+    "mentor": "Zilolaxon Absalamova",
+    "experience": "2 years of experience, worked with 100+ students",
+    "education": "Student at Tashkent State Technical University",
+    "skills": [
+      "Computer usage technologies",
+      "Skills in Word, Excel, PowerPoint"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Energetic"
+    ]
+  },
+  "mentalarithmetic": {
+    "title": "Mental Arithmetic",
+    "description": "Method for developing both left and right brain hemispheres in children",
+    "mentor": "Dilshod Sadriddinov",
+    "experience": "3 years of experience, worked with 150+ students",
+    "education": "Graduate of National University of Uzbekistan",
+    "skills": [
+      "Trainer in mathematics and mental arithmetic",
+      "Fast and accurate calculation",
+      "Engagement in critical and logical thinking"
+    ],
+    "features": [
+      "Responsible",
+      "Demanding",
+      "Individual approach"
+    ]
+  }
+},
   "bonus": {
     "badge": "BONUS",
     "offer": "Special Offer",

@@ -89,11 +89,12 @@ export default function Mentors() {
 
   const teachers = [
     { id: 1, key: "math", image: "/mentors/dilshod.JPG" },
-    { id: 2, key: "mentalarithmetic", image: "/mentors/shoira.JPG" },
+   
     { id: 3, key: "frontend", image: "/mentors/zilola.JPG" },
     { id: 4, key: "russian", image: "/mentors/nigina.JPG" },
     { id: 5, key: "arabic", image: "/mentors/gulmira.JPG" },
     { id: 6, key: "englishkids", image: "/mentors/jalilova.JPG" },
+    { id: 2, key: "mentalarithmetic", image: "/mentors/dilshod.JPG" },
     { id: 7, key: "english", image: "/mentors/maftuna.JPG" },
   ];
 
@@ -122,7 +123,7 @@ export default function Mentors() {
                 <p className="text-gray-600">{t(`courses.${teacher.key}.title`)}</p>
                 <Link to={`/mentors/${teacher.key}`}>
                   <button className="mt-4 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition">
-                    Ko‘proq ma’lumot
+                    {t(`btn`)}
                   </button>
                 </Link>
               </div>

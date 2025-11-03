@@ -14,7 +14,7 @@ export default function CardComponents() {
         { id: "russian", image: "./russian.png", mentorImage: "./mentors/nigina.JPG" },
         { id: "arabic", image: "./arabic.png", mentorImage: "./mentors/gulmira.JPG" },
         { id: "itbasics", image: "./itbasics.png", mentorImage: "./mentors/zilola.JPG" },
-        { id: "mentalarithmetic", image: "./mentalarithmetic.png", mentorImage: "./mentors/shoira.JPG" },
+        { id: "mentalarithmetic", image: "./mentalarithmetic.png", mentorImage: "./mentors/dilshod.JPG" },
     ];
 
     return (

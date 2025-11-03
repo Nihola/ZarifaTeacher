@@ -144,9 +144,9 @@ const courses = [
     description: "Bola miyasining chap va o‘ng qismlarini birgalikda rivojlantirish usuli.",
     duration: "4 oy",
     price: 399000,
-    mentor: "Shoira",
+    mentor: "Dilshod",
     image: "./mentalarithmetic.png",
-    mentorImage: "./mentors/shoira.JPG",
+    mentorImage: "./mentors/dilshod.JPG",
     content: [
       "Asosiy hisoblash usullari",
       "Miya mashqlari",
